@@ -20,6 +20,8 @@ import * as os from 'os';
 
 import { ExampleDecsProvider } from './treeViewsProviders/githubDecExamples';
 import { FastTemplatesTreeProvider } from './treeViewsProviders/fastTreeProvider';
+import { QuickStartProvider, registerQuickStartProvider } from './treeViewsProviders/quickStartProvider';
+
 
 import * as utils from './utils/utils';
 import { ext, initSettings, loadSettings } from './extensionVariables';
@@ -699,6 +701,8 @@ export async function activate(context: ExtensionContext) {
 	 * http://patorjk.com/software/taag/#p=display&h=0&f=Letters&t=UTIL
 	 */
 
+	//window.registerTreeDataProvider('quickStart', new QuickStartProvider(context));
+	registerQuickStartProvider(context);
 
 	// register example delarations tree
 	window.registerTreeDataProvider('decExamples', new ExampleDecsProvider());

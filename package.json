@@ -178,6 +178,11 @@
 		"views": {
 			"f5-view-container": [
 				{
+					"type": "webview",
+					"id": "quickStart",
+					"name": "Quick Start"
+				},
+				{
 					"id": "f5Hosts",
 					"name": "F5 Hosts"
 				},
@@ -897,7 +902,11 @@
 				"command": "f5.cfgExplore-save",
 				"title": "--- Save Diagnostics Rules ---",
 				"group": "F5"
-			}
+			},
+      {
+        "command": "f5.samples",
+        "title": "Open Samples Webview"
+      }
 		],
 		"menus": {
 			"editor/title": [
