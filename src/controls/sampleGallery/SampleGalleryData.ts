@@ -1,0 +1,7077 @@
+export const SampleGalleryData = [
+  {
+    "title": "F5 BIG-IP AS3 Adapt Profile Configuration",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Adaptation",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures HTTP adaptation profiles for request and response handling on a virtual server.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-adapt-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-adapt-profile.json"
+  },
+  {
+    "title": "Add Application to Tenant via PATCH",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Application",
+      "HTTP",
+      "Pool"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration adds a new HTTP application to a tenant using a PATCH operation.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-add-application-to-tenant-via-patch.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-add-application-to-tenant-via-patch.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 GCE Address Discovery Configuration",
+    "tags": [
+      "AS3",
+      "GCE",
+      "Address Discovery",
+      "HTTP",
+      "Cloud",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures F5 BIG-IP to discover GCE addresses for HTTP service.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-address-discovery-gce.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-address-discovery-gce.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Service Address Route Advertisement",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Service_Address",
+      "Route Advertisement",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a service address with route advertisement settings in F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-advertising-route-for-service-address.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-advertising-route-for-service-address.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 ALG Log Profile Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "ALG",
+      "Log",
+      "Profile"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for an ALG Log Profile in F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-alg-log-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-alg-log-profile.json"
+  },
+  {
+    "title": "Simple Analytics Capture Configuration",
+    "tags": [
+      "AS3",
+      "Analytics",
+      "HTTP",
+      "Traffic Capture",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration captures HTTP headers for analytics using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-analytics-capture-simple.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-analytics-capture-simple.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Analytics Capture Configuration",
+    "tags": [
+      "AS3",
+      "Analytics",
+      "HTTP",
+      "Load Balancer",
+      "Capture Filter"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for capturing and filtering analytics data on HTTP traffic using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-analytics-capture.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-analytics-capture.json"
+  },
+  {
+    "title": "Simple Analytics Profile Configuration",
+    "tags": [
+      "AS3",
+      "Analytics",
+      "HTTP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a simple analytics profile for HTTP service with client-side statistics collection.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-analytics-profile-simple.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-analytics-profile-simple.json"
+  },
+  {
+    "title": "Sample Analytics Profile Configuration",
+    "tags": [
+      "AS3",
+      "Analytics",
+      "Profile",
+      "Logging",
+      "Statistics"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an analytics profile for logging and statistics collection on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-analytics-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-analytics-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 APM Configuration",
+    "tags": [
+      "AS3",
+      "APM",
+      "Access Profile",
+      "Service_HTTP",
+      "Tenant"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up APM services with shared access profiles across multiple tenants in an F5 BIG-IP environment.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-apm-profiles.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-apm-profiles.json"
+  },
+  {
+    "title": "BBR Congestion Control Configuration",
+    "tags": [
+      "AS3",
+      "TCP",
+      "BBR",
+      "Congestion Control",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a TCP profile with BBR congestion control in F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-bbr-congestion-control.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-bbr-congestion-control.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 DNS Configuration Example",
+    "tags": [
+      "AS3",
+      "DNS",
+      "DNS Zone",
+      "DNS Logging",
+      "DNS Profile",
+      "UDP",
+      "TSIG"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for DNS zone management, DNS logging, and UDP service using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-big-ip-dns-features.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-big-ip-dns-features.json"
+  },
+  {
+    "title": "BIG-IP AS3 PEM Configuration Example",
+    "tags": [
+      "AS3",
+      "PEM",
+      "Enforcement Policy",
+      "Usage Reporting",
+      "Traffic Management"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "A configuration file for F5 BIG-IP AS3 showcasing Policy Enforcement Manager (PEM) settings and usage reporting.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-big-ip-pem.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-big-ip-pem.json"
+  },
+  {
+    "title": "Example Bot Defense Profile Configuration",
+    "tags": [
+      "AS3",
+      "Security",
+      "HTTP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a bot defense profile for an HTTP service on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-bot-defense-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-bot-defense-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Bandwidth Control Policy Example",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Bandwidth",
+      "Service_Generic",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a bandwidth control policy for a generic service on an F5 BIG-IP system using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-bwc-policy-ref-from-service.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-bwc-policy-ref-from-service.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 C3D Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Certificate",
+      "OCSP",
+      "CRL",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys TLS server and client settings with certificate management and OCSP validation using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-c3d.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-c3d.json"
+  },
+  {
+    "title": "Change WAF Policy Mode to Transparent",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "Policy",
+      "Configuration",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets the WAF policy to transparent mode using a specified template.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-change-waf-mode.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-change-waf-mode.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Cipher Group Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Cipher Group",
+      "Security",
+      "SSL",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a TLS server with a custom cipher group and rules on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-cipher-group.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-cipher-group.json"
+  },
+  {
+    "title": "HTTP/2 Client and Server Profile Configuration",
+    "tags": [
+      "AS3",
+      "HTTP/2",
+      "TLS",
+      "Certificate",
+      "Service_HTTPS"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up HTTP/2 client and server profiles with TLS for secure communication.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-client-and-server-HTTP2-profile-in-one-declaration.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-client-and-server-HTTP2-profile-in-one-declaration.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 TLS Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "HTTPS",
+      "Certificate",
+      "ClientTLS"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures client and server TLS profiles for an HTTPS service on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-client-and-server-tls-profile-in-one-declaration.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-client-and-server-tls-profile-in-one-declaration.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 TLS Profile Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "SSL",
+      "Certificate",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up client and server TLS profiles using shared certificates on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-client-and-server-tls-profile-using-shared-certs.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-client-and-server-tls-profile-using-shared-certs.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Clone Pools Configuration",
+    "tags": [
+      "AS3",
+      "Clone Pools",
+      "HTTP",
+      "Ingress",
+      "Egress",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures HTTP service with clone pools for ingress and egress traffic.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-clone-pools.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-clone-pools.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Connectivity and Access Profiles Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "APM",
+      "HTTP",
+      "VirtualServer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with access and connectivity profiles on a virtual server.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-connectivity-access-profiles.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-connectivity-access-profiles.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Data Group Configuration",
+    "tags": [
+      "AS3",
+      "Data Group",
+      "External Storage",
+      "Bearer Token",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an external data group in F5 BIG-IP using AS3 with bearer token authentication.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-data-group-token.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-data-group-token.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 TLS Forward Proxy Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Proxy",
+      "Data Group",
+      "Certificate Management"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a TLS forward proxy with external data group and certificate management.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-data-group-url.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-data-group-url.json"
+  },
+  {
+    "title": "OWASP WAF Configuration",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "OWASP",
+      "Security",
+      "HTTP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a WAF policy using an OWASP template for HTTP services.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-declarative-waf.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-declarative-waf.json"
+  },
+  {
+    "title": "Disable Service Discovery in F5 BIG-IP AS3",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Service Discovery",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file disables service discovery in F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-disable-service-discovery.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-disable-service-discovery.json"
+  },
+  {
+    "title": "Disable TLS Server Certificates in AS3",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Certificate Management",
+      "BIG-IP",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration disables a specific TLS server certificate in an F5 BIG-IP AS3 declaration.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-disabling-mode-in-tls-server.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-disabling-mode-in-tls-server.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 DNS Cache Resolver Configuration",
+    "tags": [
+      "AS3",
+      "DNS",
+      "Cache",
+      "Resolver",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a DNS cache resolver using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-dns-cache-resolver.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-dns-cache-resolver.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 DNS Cache Validating Resolver Configuration",
+    "tags": [
+      "AS3",
+      "DNS",
+      "Cache",
+      "Validating Resolver",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a DNS cache with validating resolver capabilities on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-dns-cache-validating-resolver.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-dns-cache-validating-resolver.json"
+  },
+  {
+    "title": "DNS Cache Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "DNS",
+      "Cache",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a DNS cache with transparent local zones on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-dns-cache.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-dns-cache.json"
+  },
+  {
+    "title": "F5 BIG-IP DNS Monitor Configuration",
+    "tags": [
+      "AS3",
+      "DNS",
+      "Monitor",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for DNS monitoring using F5 BIG-IP AS3 with detailed and simple monitor settings.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-dns-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-dns-monitor.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 DNS DoS Profile Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "DNS",
+      "DOS",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for DNS DoS protection using F5 BIG-IP AS3 with specific attack vectors.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-dos-profile-dns-vectors.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-dos-profile-dns-vectors.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Mobile Defense DOS Profile",
+    "tags": [
+      "AS3",
+      "DOS",
+      "Security",
+      "BIG-IP",
+      "Application Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a DOS profile with mobile defense features enabled in F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-dos-profile-for-mobile-defense.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-dos-profile-for-mobile-defense.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 DOS Profile Network Vectors",
+    "tags": [
+      "AS3",
+      "DOS",
+      "Security",
+      "Configuration",
+      "Profile"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a DOS profile with specific network vectors for security management.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-dos-profile-network-vectors.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-dos-profile-network-vectors.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 DOS Profile Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "DOS",
+      "Security",
+      "Profile",
+      "Signatures"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a DOS profile with stress-based detection and signature acceleration.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-dos-profile-signatures.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-dos-profile-signatures.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 DoS Profile Configuration",
+    "tags": [
+      "AS3",
+      "DOS",
+      "Security",
+      "Profile",
+      "Network",
+      "HTTP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a DoS protection profile using F5 BIG-IP AS3 with specific geolocation and bot defense settings.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-dos-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-dos-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 DNS Nameserver Configuration",
+    "tags": [
+      "AS3",
+      "DNS",
+      "Configuration",
+      "Dry Run",
+      "Debug"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a DNS Nameserver with dry run and debug logging enabled.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-dry-run-controls.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-dry-run-controls.json"
+  },
+  {
+    "title": "Egress HTTP/2 Profile Configuration",
+    "tags": [
+      "AS3",
+      "HTTP/2",
+      "TLS",
+      "Certificate",
+      "Service_HTTPS"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an egress HTTP/2 profile with TLS settings for a service.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-egress-http2-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-egress-http2-profile.json"
+  },
+  {
+    "title": "Enable Burst Handling Configuration",
+    "tags": [
+      "AS3",
+      "Burst Handling",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration enables burst handling on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-enable-burst-handling.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-enable-burst-handling.json"
+  },
+  {
+    "title": "Enable/Disable Server SSL via Endpoint Policies",
+    "tags": [
+      "AS3",
+      "SSL",
+      "Endpoint Policy",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration enables server SSL through endpoint policies using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-enable-disable-server-ssl-via-endpoint-policies.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-enable-disable-server-ssl-via-endpoint-policies.json"
+  },
+  {
+    "title": "Example Endpoint Policy with Default Disabled WAF",
+    "tags": [
+      "AS3",
+      "Endpoint Policy",
+      "Application Security",
+      "HTTP",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration defines an endpoint policy for HTTP services with a default disabled WAF rule.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-default-disabled-waf.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-default-disabled-waf.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Bot Defense Configuration",
+    "tags": [
+      "AS3",
+      "Security",
+      "Endpoint Policy",
+      "HTTP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration enables and disables bot defense on specified HTTP endpoints using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-enable-disable-botdefense.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-enable-disable-botdefense.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 HTTP Service Configuration with Endpoint Policy",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "HTTP",
+      "Endpoint Policy",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with an endpoint policy checking cookie existence.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-exists-operands.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-exists-operands.json"
+  },
+  {
+    "title": "GeoIP-Based Endpoint Policy Configuration",
+    "tags": [
+      "AS3",
+      "GeoIP",
+      "Endpoint Policy",
+      "BIG-IP",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an endpoint policy using GeoIP conditions to match requests based on geographic and organizational attributes.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-geoip-condition-events.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-geoip-condition-events.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 HTTP Host Condition Configuration",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "LTM",
+      "Endpoint Policy",
+      "Proxy",
+      "DNS"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": true,
+    "description": "Configures an HTTP host condition with an LTM policy for specific hostnames and ports.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-http-host-condition.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-http-host-condition.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 HTTP Method Condition Policy",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Endpoint Policy",
+      "Virtual Server",
+      "Data Group"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration defines an endpoint policy for HTTP methods with specific URI conditions on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-http-method-condition.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-http-method-condition.json"
+  },
+  {
+    "title": "HTTP Redirect Endpoint Policy",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Rewrite Profile",
+      "Endpoint Policy",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP redirect to 'http://localhost' with a 300 status code.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-http-redirect.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-http-redirect.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 HTTP Status Code Policy",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Endpoint Policy",
+      "Status Code",
+      "Logging"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an endpoint policy to log HTTP responses based on status codes using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-http-status-code-condition.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-http-status-code-condition.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Endpoint Policy Log Action",
+    "tags": [
+      "AS3",
+      "Endpoint",
+      "Policy",
+      "Logging",
+      "HTTP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP service with an endpoint policy that logs requests to a specified syslog server.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-log-action.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-log-action.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Endpoint Policy with Negative Operands",
+    "tags": [
+      "AS3",
+      "Endpoint Policy",
+      "SSL",
+      "HTTP",
+      "Negative Operands",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an endpoint policy on F5 BIG-IP using AS3 to apply negative operand conditions for SSL and HTTP traffic.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-negative-operands.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-negative-operands.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Endpoint Policy Persistence Configuration",
+    "tags": [
+      "AS3",
+      "Endpoint Policy",
+      "Persistence",
+      "Networking",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an F5 BIG-IP AS3 endpoint policy with multiple persistence methods.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-persist.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-persist.json"
+  },
+  {
+    "title": "SSL SNI Match with HTTP Action Configuration",
+    "tags": [
+      "AS3",
+      "SSL",
+      "SNI",
+      "Endpoint Policy",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures endpoint policies to match SSL SNI and perform HTTP actions on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-ssl-sni-match-with-http-action.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-ssl-sni-match-with-http-action.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Endpoint Policy with TCL Action",
+    "tags": [
+      "AS3",
+      "Endpoint Policy",
+      "iRules TCL",
+      "HTTP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP service with an endpoint policy using a TCL action for request events.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-tcl-action.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-tcl-action.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 TCP Endpoint Policy Configuration",
+    "tags": [
+      "AS3",
+      "TCP",
+      "Endpoint Policy",
+      "BIG-IP",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration defines various TCP endpoint policies for handling different network events and conditions on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-tcp-condition-events.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-tcp-condition-events.json"
+  },
+  {
+    "title": "TCP Endpoint Policy Configuration",
+    "tags": [
+      "AS3",
+      "Endpoint Policy",
+      "TCP",
+      "Data Group",
+      "BIG-IP",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a TCP endpoint policy with specific IP and port conditions using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-tcp-condition.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-tcp-condition.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Endpoint Policy Configuration",
+    "tags": [
+      "AS3",
+      "Endpoint Policy",
+      "HTTP",
+      "Data Group",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an endpoint policy to replace HTTP URIs and drop non-matching client requests.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-endpoint-policy-with-client-accepted-option.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-endpoint-policy-with-client-accepted-option.json"
+  },
+  {
+    "title": "Event-Driven Pool Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "ADC",
+      "Event-Driven",
+      "Pool",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a pool with static and event-driven address discovery for member servers.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-event-driven-sd.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-event-driven-sd.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 External GSLB Monitor Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "External Monitor",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up external GSLB monitors for specific targets using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-external-gslb-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-external-gslb-monitor.json"
+  },
+  {
+    "title": "External Monitor Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "External Monitor",
+      "BIG-IP",
+      "Configuration",
+      "Monitor"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an external monitor for a pool in F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-external-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-external-monitor.json"
+  },
+  {
+    "title": "Firewall Policy with Route Domain Enforcement",
+    "tags": [
+      "AS3",
+      "Firewall",
+      "Route Domain",
+      "Security",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a firewall policy with route domain enforcement and specific TCP rules.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-firewall-policy-route-domain-enforcement.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-firewall-policy-route-domain-enforcement.json"
+  },
+  {
+    "title": "Example Firewall Rule Address Ports Configuration",
+    "tags": [
+      "AS3",
+      "Firewall",
+      "TCP",
+      "Security",
+      "Configuration",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration defines a set of firewall rules with specific address and port criteria using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-firewall-rule-address-ports.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-firewall-rule-address-ports.json"
+  },
+  {
+    "title": "Example Firewall Rule Configuration",
+    "tags": [
+      "AS3",
+      "Firewall",
+      "Security",
+      "TCP",
+      "Logging"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration defines a set of firewall rules for TCP traffic with logging enabled.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-firewall-rule.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-firewall-rule.json"
+  },
+  {
+    "title": "Example Forwarding Virtual Server Configuration",
+    "tags": [
+      "AS3",
+      "Route",
+      "Virtual Server",
+      "NAT",
+      "TCP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a forwarding virtual server with NAT policy on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-forwarding-virtual-server.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-forwarding-virtual-server.json"
+  },
+  {
+    "title": "Example FPS Profile Configuration",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "FPS",
+      "Security",
+      "Profile"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a virtual server with an anti-fraud profile for HTTP traffic.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-fps-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-fps-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 FQDN Configuration",
+    "tags": [
+      "AS3",
+      "FQDN",
+      "HTTP",
+      "Pool",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with FQDN-based pool member discovery.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-fqdnPrefix.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-fqdnPrefix.json"
+  },
+  {
+    "title": "FTP Monitor Configuration",
+    "tags": [
+      "AS3",
+      "FTP",
+      "Monitor",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an FTP monitor for a BIG-IP system using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ftp-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ftp-monitor.json"
+  },
+  {
+    "title": "FTP Profile Configuration for F5 BIG-IP AS3",
+    "tags": [
+      "AS3",
+      "FTP",
+      "Profile",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an FTP profile with security and logging settings on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ftp-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ftp-profile.json"
+  },
+  {
+    "title": "GSLB TCP Half-Open Monitor Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "TCP",
+      "Monitor",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a GSLB monitor with TCP half-open type for health checks.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-TCP-half-monitor-type.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-TCP-half-monitor-type.json"
+  },
+  {
+    "title": "F5 BIG-IP GSLB Monitor Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "BIG-IP",
+      "Monitor",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a BIG-IP GSLB monitor with specific interval and timeout settings.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-bigip-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-bigip-monitor.json"
+  },
+  {
+    "title": "GSLB Configuration for Custom Server Names",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "Load Balancer",
+      "DNS",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures GSLB with custom server names and persistence for domain example.edu.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-custom-server-name.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-custom-server-name.json"
+  },
+  {
+    "title": "F5 BIG-IP GSLB Configuration Example",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "Networking",
+      "Load Balancer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up a GSLB environment with domains and pools using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-depends-on.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-depends-on.json"
+  },
+  {
+    "title": "GSLB Virtual Server Discovery Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "BIG-IP",
+      "Data Center",
+      "Server",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures GSLB virtual server discovery with a specific data center and server settings.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-discovery.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-discovery.json"
+  },
+  {
+    "title": "GSLB Configuration for Example.edu",
+    "tags": [
+      "AS3",
+      "GTM",
+      "GSLB",
+      "Load Balancer",
+      "iRules"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up GSLB for the domain example.edu with load balancing and iRules.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-features.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-features.json"
+  },
+  {
+    "title": "GSLB HTTPS Monitor Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "HTTPS",
+      "Monitor",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a GSLB HTTPS monitor with specific settings for F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-monitor-https.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-monitor-https.json"
+  },
+  {
+    "title": "GSLB LDAP Monitor Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "Authentication",
+      "Monitor",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a GSLB monitor using LDAP protocol in F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-monitor-ldap.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-monitor-ldap.json"
+  },
+  {
+    "title": "GSLB MySQL Monitor Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "MySQL",
+      "Monitor",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a GSLB monitor using MySQL to check database entries.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-monitor-mysql.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-monitor-mysql.json"
+  },
+  {
+    "title": "GSLB SIP Monitor Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "SIP",
+      "Monitor"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a GSLB SIP monitor using AS3 on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-monitor-sip.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-monitor-sip.json"
+  },
+  {
+    "title": "GSLB SMTP Monitor Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "SMTP",
+      "Monitor",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a GSLB monitor for SMTP services using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-monitor-smtp.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-monitor-smtp.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 GSLB NAPTR Pool Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "NAPTR",
+      "DNS",
+      "Load Balancer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up a GSLB pool with NAPTR records for domain load balancing.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-pool-naptr.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-pool-naptr.json"
+  },
+  {
+    "title": "GSLB Pool Configuration with Virtual Server Reference",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "Pool",
+      "Virtual Server",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a GSLB pool with a virtual server reference using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-pool-virtual-server-use-ref.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-pool-virtual-server-use-ref.json"
+  },
+  {
+    "title": "GSLB Pool Member Order Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "BIG-IP",
+      "Load Balancer",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a GSLB pool with specific member order for load balancing using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-pools-memberOrder.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-pools-memberOrder.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 GSLB Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "Configuration",
+      "Load Balancer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up GSLB pools and domains for load balancing across multiple servers.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-pools.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-pools.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 GSLB Configuration with CNAME Pools",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "CNAME",
+      "Load Balancer",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up GSLB with domain and CNAME pools for global load balancing.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-pools_with_poolsCname.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-pools_with_poolsCname.json"
+  },
+  {
+    "title": "GSLB Server Configuration for Generic Host",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "Server",
+      "Configuration",
+      "Data Center"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a GSLB server with a generic-host type in a specified data center.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-server-serverType.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-server-serverType.json"
+  },
+  {
+    "title": "GSLB Virtual Server Configuration with Minimum Monitor",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "Virtual Server",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a GSLB virtual server with minimum monitor requirements using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-service-virtual-server-minimum-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-service-virtual-server-minimum-monitor.json"
+  },
+  {
+    "title": "GSLB Topology Regions Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "Topology",
+      "Regions",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Defines topology regions for GSLB using various match criteria.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-topology-regions.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-topology-regions.json"
+  },
+  {
+    "title": "GSLB NAPTR Configuration",
+    "tags": [
+      "AS3",
+      "GSLB",
+      "NAPTR",
+      "iRule",
+      "DNS"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a GSLB domain with NAPTR records using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-gslb-wideip-naptr.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-gslb-wideip-naptr.json"
+  },
+  {
+    "title": "HTML Profile with All Rules Configuration",
+    "tags": [
+      "AS3",
+      "HTML Profile",
+      "Service_HTTP",
+      "Configuration",
+      "Rules"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTML profile with various rules for content detection and manipulation on an F5 BIG-IP system using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-html-profile-with-all-rules.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-html-profile-with-all-rules.json"
+  },
+  {
+    "title": "HTML Profile Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "HTML Profile",
+      "Service_HTTP",
+      "Content Detection",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTML profile with content detection and custom rules on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-html-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-html-profile.json"
+  },
+  {
+    "title": "HTML Rule Configuration for F5 BIG-IP AS3",
+    "tags": [
+      "AS3",
+      "HTML Rule",
+      "BIG-IP",
+      "Configuration",
+      "Automation"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration appends HTML content to specific tags in HTTP responses using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-html-rule.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-html-rule.json"
+  },
+  {
+    "title": "HTTP Acceleration Profile Configuration",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Acceleration",
+      "Profile",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP acceleration profile using AS3 on a BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http-acceleration-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http-acceleration-profile.json"
+  },
+  {
+    "title": "HTTP API Protection Profile Configuration",
+    "tags": [
+      "AS3",
+      "API Protection",
+      "HTTP",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with API protection on a specified virtual server.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http-api-protection-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http-api-protection-profile.json"
+  },
+  {
+    "title": "Custom HTTP Persistence Configuration",
+    "tags": [
+      "AS3",
+      "Persistence",
+      "HTTP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP service with custom cookie-based persistence using JSESSIONID.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http-custom-persistence.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http-custom-persistence.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 HTTP Enforcement Configuration",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Reverse Proxy",
+      "Explicit Proxy",
+      "Transparent Proxy",
+      "Enforcement"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for HTTP enforcement properties using reverse, explicit, and transparent proxy profiles in F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http-enforcement-properties.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http-enforcement-properties.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 HTTP Configuration with Corporate Virtual Server",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Virtual Server",
+      "Persistence",
+      "Corporate LAN"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys an HTTP service with an extra virtual server for corporate LAN clients using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http-extra-virtual-servers.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http-extra-virtual-servers.json"
+  },
+  {
+    "title": "HTTP and HTTPS Application Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "HTTP",
+      "HTTPS",
+      "TLS",
+      "Certificate"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys an HTTP and an HTTPS application with specified pools and certificates using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http-https-one-declaration.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http-https-one-declaration.json"
+  },
+  {
+    "title": "HTTP Multiplex Configuration",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Multiplex",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures HTTP multiplexing properties for a virtual server on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http-multiplex-properties.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http-multiplex-properties.json"
+  },
+  {
+    "title": "HTTP Configuration with No Compression and Custom TCP Profile",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "iRule",
+      "TCP",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with no compression, a specific TCP profile, and an iRule to choose a pool based on client IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http-no-compression-tcp-profile-irule-for-pool.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http-no-compression-tcp-profile-irule-for-pool.json"
+  },
+  {
+    "title": "HTTP Proxy Connect Profile Configuration",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Proxy",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with proxy connect enabled on BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http-proxy-connect-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http-proxy-connect-profile.json"
+  },
+  {
+    "title": "HTTP/2 Monitor Configuration",
+    "tags": [
+      "AS3",
+      "HTTP/2",
+      "Monitor",
+      "TLS",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP/2 monitor with TLS for health checks on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http2-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http2-monitor.json"
+  },
+  {
+    "title": "HTTP/2 Configuration without TLS",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "HTTP/2",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP/2 service on F5 BIG-IP without enforcing TLS requirements.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http2-notls.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http2-notls.json"
+  },
+  {
+    "title": "HTTP/2 and TLS Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "HTTP/2",
+      "TLS",
+      "Certificate",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP/2 profile with TLS for secure communication on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-http2.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-http2.json"
+  },
+  {
+    "title": "HTTPS Monitor Configuration",
+    "tags": [
+      "AS3",
+      "HTTPS",
+      "Monitor",
+      "TLS"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTPS monitor with client TLS settings in F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-https-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-https-monitor.json"
+  },
+  {
+    "title": "HTTPS Monitor Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "HTTPS",
+      "Monitor",
+      "Certificate",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTPS monitor using a client certificate on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-https-monitor2.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-https-monitor2.json"
+  },
+  {
+    "title": "ICAP Profile Configuration for Video Optimization",
+    "tags": [
+      "AS3",
+      "ICAP",
+      "Video Optimization",
+      "Profile",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an ICAP profile for video optimization using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-icap-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-icap-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 FQDN Pool Configuration",
+    "tags": [
+      "AS3",
+      "FQDN",
+      "Pool",
+      "HTTP",
+      "Virtual Server",
+      "Persistence"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an FQDN pool with auto-populating members for an HTTP service.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-identify-pool-members-via-fqdn-pool.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-identify-pool-members-via-fqdn-pool.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 iFile Configuration",
+    "tags": [
+      "AS3",
+      "iFile",
+      "iRule",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an iFile and iRule for a sample application using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ifile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ifile.json"
+  },
+  {
+    "title": "Example Inband Monitor Configuration",
+    "tags": [
+      "AS3",
+      "Monitor",
+      "Configuration",
+      "JSON"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up an inband monitor with specific parameters for a pool in F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-inband-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-inband-monitor.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Configuration for WordPress and Mobile Defense",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "DOS",
+      "WordPress",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a WAF policy for WordPress and a DOS profile for mobile defense on specified virtual servers.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-include.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-include.json"
+  },
+  {
+    "title": "HTTP/2 Profile Configuration for BIG-IP AS3",
+    "tags": [
+      "AS3",
+      "HTTP/2",
+      "TLS",
+      "Certificate",
+      "Service_HTTPS",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP/2 profile with TLS for a BIG-IP AS3 application.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ingress-http2-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ingress-http2-profile.json"
+  },
+  {
+    "title": "Integrated Bot Defense Profile Configuration",
+    "tags": [
+      "AS3",
+      "Security",
+      "HTTP",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with an integrated bot defense profile on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-integrated-bot-defense-profile-ref.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-integrated-bot-defense-profile-ref.json"
+  },
+  {
+    "title": "Internal Virtual Server Configuration",
+    "tags": [
+      "AS3",
+      "Internal",
+      "Virtual Server",
+      "Service_TCP",
+      "ICAP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for an internal virtual server using AS3 with ICAP profile.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-internal-virtual.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-internal-virtual.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 IP Intelligence Policy Configuration",
+    "tags": [
+      "AS3",
+      "IP Intelligence",
+      "HTTP Service",
+      "BIG-IP",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with IP intelligence policy on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ip-intelligence-policy-ref.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ip-intelligence-policy-ref.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 iRulesLX Profile Configuration",
+    "tags": [
+      "AS3",
+      "iRulesLX",
+      "TCP",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a TCP service with an iRulesLX profile on a virtual server.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-iruleslx-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-iruleslx-profile.json"
+  },
+  {
+    "title": "Example L4 Profile Configuration",
+    "tags": [
+      "AS3",
+      "L4",
+      "Profile",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a Layer 4 service with specific timeout and TCP settings on an F5 BIG-IP device.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-l4-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-l4-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 LDAP Monitor Configuration",
+    "tags": [
+      "AS3",
+      "Authentication",
+      "Monitor",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up various LDAP monitors for an F5 BIG-IP system using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ldap-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ldap-monitor.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 LDAP with STARTTLS Configuration",
+    "tags": [
+      "AS3",
+      "Authentication",
+      "STARTTLS",
+      "TLS",
+      "UDP",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an F5 BIG-IP to handle LDAP traffic with STARTTLS over UDP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ldap-starttls.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ldap-starttls.json"
+  },
+  {
+    "title": "Forward HTTP Requests with Local Traffic Policy",
+    "tags": [
+      "AS3",
+      "LTM",
+      "HTTP",
+      "Traffic Policy",
+      "Route",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration forwards HTTP requests to a specified pool based on URI conditions using a local traffic policy.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-local-traffic-policy-to-forward-http-requests.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-local-traffic-policy-to-forward-http-requests.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Splunk Logging Configuration",
+    "tags": [
+      "AS3",
+      "Logging",
+      "Splunk",
+      "Remote Logging",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up logging to a Splunk destination using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-logging-splunk.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-logging-splunk.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 TLS Server Profile Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "TLS",
+      "SNI",
+      "Certificate"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys a TLS server profile with SNI matching and certificates on an F5 BIG-IP system using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-matchtosni-with-tls-server-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-matchtosni-with-tls-server-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Maximum Bandwidth Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Configuration",
+      "Bandwidth",
+      "AFM"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets a maximum bandwidth limit for a service on port 8080.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-maximumBandwidth.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-maximumBandwidth.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Generic Service Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Service_Generic",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a generic service with a virtual server on port 200.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-metadata.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-metadata.json"
+  },
+  {
+    "title": "Management Port Log Destination Configuration",
+    "tags": [
+      "AS3",
+      "Log Destination",
+      "Management",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a log destination using the management port on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-mgmt-port-log-dest.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-mgmt-port-log-dest.json"
+  },
+  {
+    "title": "Modify TLS Options with AS3",
+    "tags": [
+      "AS3",
+      "TLS",
+      "SSL",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration modifies TLS client options using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-modifying-tls-options.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-modifying-tls-options.json"
+  },
+  {
+    "title": "Multiple Client and Server SSL Profiles Configuration",
+    "tags": [
+      "AS3",
+      "SSL",
+      "HTTPS",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTPS service with multiple client and server SSL profiles on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-multiple-client-server-ssl-profiles.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-multiple-client-server-ssl-profiles.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Multiple Declarations Example",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "L4",
+      "TCP",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file contains multiple AS3 declarations for setting up L4 virtual servers on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-multiple-declarations-bigiq.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-multiple-declarations-bigiq.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Multiple Declarations Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Deployment",
+      "Configuration",
+      "HTTP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file manages the deployment and redeployment of AS3 declarations on F5 BIG-IP systems.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-multiple-declarations-container.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-multiple-declarations-container.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Forwarding Virtual Server Configuration",
+    "tags": [
+      "AS3",
+      "Route",
+      "Virtual Server",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for multiple forwarding virtual servers using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-multiple-fwd-vs.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-multiple-fwd-vs.json"
+  },
+  {
+    "title": "Multiple SSL/TLS Certificates in One Profile",
+    "tags": [
+      "AS3",
+      "SSL",
+      "TLS",
+      "Certificate",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys multiple SSL/TLS certificates in a single profile using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-multiple-ssl-tls-certs-in-one-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-multiple-ssl-tls-certs-in-one-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Multiplex Profile Configuration",
+    "tags": [
+      "AS3",
+      "Multiplex",
+      "Profile",
+      "HTTP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a OneConnect multiplex profile with specific connection limits and reuse settings.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-multiplex-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-multiplex-profile.json"
+  },
+  {
+    "title": "Example MySQL Monitor Configuration",
+    "tags": [
+      "AS3",
+      "MySQL",
+      "Monitor",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a MySQL monitor with specific parameters for an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-mysql-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-mysql-monitor.json"
+  },
+  {
+    "title": "NAT64 Configuration for HTTP Service",
+    "tags": [
+      "AS3",
+      "NAT64",
+      "HTTP",
+      "IPv6",
+      "Load Balancer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration enables NAT64 for an HTTP service with load balancing across two IPv4 server addresses.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-nat64.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-nat64.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Net Address List Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Net Address List",
+      "Configuration",
+      "DOS Profile"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a Net Address List and DOS Profile in F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-net-address-list.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-net-address-list.json"
+  },
+  {
+    "title": "Service Address Configuration with Netmask",
+    "tags": [
+      "AS3",
+      "Service_Address",
+      "Configuration",
+      "Netmask",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a service address with a specified netmask on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-netmask.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-netmask.json"
+  },
+  {
+    "title": "Example Node Monitor Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Monitor",
+      "HTTP",
+      "Pool"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP service with a pool and ICMP monitor.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-node-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-node-monitor.json"
+  },
+  {
+    "title": "NTLM Profile Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "NTLM",
+      "Service_HTTP",
+      "Multiplex",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an NTLM profile with multiplex settings on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ntlm-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ntlm-profile.json"
+  },
+  {
+    "title": "OCSP Stapling and Certificate Notification Configuration",
+    "tags": [
+      "AS3",
+      "OCSP",
+      "TLS",
+      "Certificate",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures OCSP stapling and certificate status notification to a virtual server on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ocsp-stapler-and-notify-cert-to-vs.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ocsp-stapler-and-notify-cert-to-vs.json"
+  },
+  {
+    "title": "OCSP Stapling Configuration for TLS Server",
+    "tags": [
+      "AS3",
+      "TLS",
+      "OCSP",
+      "Certificate",
+      "Security",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures OCSP stapling for a TLS server using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ocsp-stapler.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ocsp-stapler.json"
+  },
+  {
+    "title": "OCSP Certificate Validator Configuration",
+    "tags": [
+      "AS3",
+      "OCSP",
+      "Certificate",
+      "Validator",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an OCSP certificate validator with a specified DNS resolver and signing algorithm.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ocsp-validator-signing.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ocsp-validator-signing.json"
+  },
+  {
+    "title": "Example One Application with Multiple Services",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "TCP",
+      "Virtual Server",
+      "Pool"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an application with HTTP and TCP services using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-one-application-multiple-services.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-one-application-multiple-services.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Configuration for One Tenant with Three Applications",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "TCP",
+      "Load Balancer",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys one tenant with three applications using HTTP and TCP services on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-one-tenant-three-applications.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-one-tenant-three-applications.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 PEM iRule Configuration",
+    "tags": [
+      "AS3",
+      "iRule",
+      "PEM",
+      "Enforcement",
+      "Policy"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": true,
+    "description": "Configuration for an F5 BIG-IP AS3 application with PEM iRules for traffic enforcement.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-pem-irule.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-pem-irule.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Cookie Persistence Configuration",
+    "tags": [
+      "AS3",
+      "Persistence",
+      "Cookie",
+      "TTL",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up cookie-based persistence with varying TTL values in an F5 BIG-IP AS3 environment.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-persist-ttl.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-persist-ttl.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Ping Access Profile Configuration",
+    "tags": [
+      "AS3",
+      "Access Policy",
+      "HTTP",
+      "TLS",
+      "SSL",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP service with Ping Access Profile and SSL termination on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ping-access-profile-http.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ping-access-profile-http.json"
+  },
+  {
+    "title": "Example Ping Access Profile for HTTPS",
+    "tags": [
+      "AS3",
+      "Access Policy",
+      "HTTPS",
+      "TLS",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an F5 BIG-IP AS3 HTTPS service with Ping Access profile and TLS client settings.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ping-access-profile-https.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ping-access-profile-https.json"
+  },
+  {
+    "title": "Ping Access Profile Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Access Policy",
+      "TLS",
+      "SSL",
+      "Pool"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a Ping Access Profile with SSL and pool settings on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ping-access-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ping-access-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 PKCS12 Configuration",
+    "tags": [
+      "AS3",
+      "Certificate",
+      "PKCS12",
+      "SSL",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for managing PKCS12 certificates using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-pkcs12.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-pkcs12.json"
+  },
+  {
+    "title": "Example Pool with NAT and SNAT Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "NAT",
+      "SNAT",
+      "HTTP",
+      "Pool"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a BIG-IP AS3 application with a pool allowing SNAT but not NAT.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-pool-allow-nat-allow-snat.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-pool-allow-nat-allow-snat.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Configuration with AWS Pool Member",
+    "tags": [
+      "AS3",
+      "AWS",
+      "HTTP",
+      "Virtual Server",
+      "Route Domain"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP service with an AWS-discovered pool member in a specific route domain.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-pool-member-route-domain-sd.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-pool-member-route-domain-sd.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Pool Member with Route Domain Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "HTTP",
+      "Virtual Server",
+      "Pool",
+      "Route Domain"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a virtual server with a pool member using a specific route domain on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-pool-member-route-domain.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-pool-member-route-domain.json"
+  },
+  {
+    "title": "Example Pool Configuration with Metadata",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "HTTP",
+      "Pool",
+      "Virtual Address"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP service with a pool and includes metadata.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-pool-with-metadata.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-pool-with-metadata.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Service Discovery Configuration",
+    "tags": [
+      "AS3",
+      "Service Discovery",
+      "Azure",
+      "Google Cloud",
+      "AWS",
+      "HTTP",
+      "Pool"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP application with a pool using local nodes and service discovery across AWS, Azure, and GCP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-populate-pool-via-remote-sd-with-big-ip-ve.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-populate-pool-via-remote-sd-with-big-ip-ve.json"
+  },
+  {
+    "title": "Azure Service Discovery with Managed Identity",
+    "tags": [
+      "AS3",
+      "Azure",
+      "Service Discovery",
+      "HTTP",
+      "Pool",
+      "Managed Identity"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP application with a pool using Azure service discovery via managed identity.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-populate-pool-via-sd-azure-managed-identity.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-populate-pool-via-sd-azure-managed-identity.json"
+  },
+  {
+    "title": "Azure Service Discovery with F5 BIG-IP AS3",
+    "tags": [
+      "AS3",
+      "Azure",
+      "Service Discovery",
+      "HTTP",
+      "Scale Set",
+      "Pool"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a simple HTTP application with a pool using Azure service discovery.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-populate-pool-via-sd-azure-scaleset.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-populate-pool-via-sd-azure-scaleset.json"
+  },
+  {
+    "title": "AWS Service Discovery for HTTP Pool",
+    "tags": [
+      "AS3",
+      "AWS",
+      "Service Discovery",
+      "HTTP",
+      "Pool"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a simple HTTP application with a pool using AWS service discovery.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-populate-pool-via-sd.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-populate-pool-via-sd.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Configuration with AWS Address Discovery",
+    "tags": [
+      "AS3",
+      "Address Discovery",
+      "AWS",
+      "HTTP",
+      "Pool"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up HTTP services with AWS address discovery for pool member updates.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-populate-pool-via-shared-sd-results.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-populate-pool-via-shared-sd-results.json"
+  },
+  {
+    "title": "PostgreSQL Monitor Configuration",
+    "tags": [
+      "AS3",
+      "PostgreSQL",
+      "Monitor",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a PostgreSQL monitor for health checking a database service.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-postgresql-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-postgresql-monitor.json"
+  },
+  {
+    "title": "Example Profile Ping Access HTTP Configuration",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Profile",
+      "Access Policy",
+      "VirtualServer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a virtual server with Ping Access profile on port 8080.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-profile-ping-access-http.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-profile-ping-access-http.json"
+  },
+  {
+    "title": "Example Profile for Ping Access HTTPS",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "HTTPS",
+      "Access Policy"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for HTTPS service with Ping Access profile on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-profile-ping-access-https.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-profile-ping-access-https.json"
+  },
+  {
+    "title": "Protocol Inspection Profile Configuration",
+    "tags": [
+      "AS3",
+      "Security",
+      "HTTP",
+      "Compliance",
+      "Signatures"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a protocol inspection profile for HTTP services on specified ports.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-protocol-inspection-profile-ports.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-protocol-inspection-profile-ports.json"
+  },
+  {
+    "title": "DNS Protocol Inspection Configuration",
+    "tags": [
+      "AS3",
+      "DNS",
+      "Security",
+      "Compliance"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures DNS protocol inspection with custom compliance and signature checks.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-protocol-inspection-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-protocol-inspection-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP RADIUS Monitor Configuration",
+    "tags": [
+      "AS3",
+      "Authentication",
+      "Monitor",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up RADIUS monitors for health checking in an F5 BIG-IP environment.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-radius-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-radius-monitor.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 SSL Configuration Example",
+    "tags": [
+      "AS3",
+      "SSL",
+      "TLS",
+      "HTTPS",
+      "Certificate",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTPS service with SSL certificate and key in the Common partition using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-reference-ssl-cert-and-key-in-common.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-reference-ssl-cert-and-key-in-common.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Access Profile Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Access Profile",
+      "HTTP Service",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with an access profile referencing an external URL on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-referencing-access-profile-url.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-referencing-access-profile-url.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Adapt Profile Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Adapt Profile",
+      "HTTP Service"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with request and response adaptation profiles using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-referencing-adapt-profiles.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-referencing-adapt-profiles.json"
+  },
+  {
+    "title": "External Security Policy Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "HTTP",
+      "Security",
+      "Policy",
+      "External"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with an external WAF policy on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-referencing-external-security-policy.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-referencing-external-security-policy.json"
+  },
+  {
+    "title": "ICAP Profile Referencing Configuration",
+    "tags": [
+      "AS3",
+      "ICAP",
+      "TCP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a TCP service with an existing ICAP profile on an internal virtual server.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-referencing-icap-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-referencing-icap-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Configuration with iRules and Pool",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "iRules",
+      "HTTP",
+      "Persistence"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP service with iRules and a pool on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-referencing-irules-pool.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-referencing-irules-pool.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Per-Request Access Policy Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Access Policy",
+      "HTTP Service",
+      "Per-Request"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for an HTTP service with a per-request access policy using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-referencing-per-request-access-policy-url.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-referencing-per-request-access-policy-url.json"
+  },
+  {
+    "title": "PPTP Profile Configuration for BIG-IP AS3",
+    "tags": [
+      "AS3",
+      "PPTP",
+      "TCP",
+      "Networking",
+      "VirtualServer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a TCP service with a PPTP profile on a virtual server using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-referencing-pptp-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-referencing-pptp-profile.json"
+  },
+  {
+    "title": "SCTP Service Configuration Example",
+    "tags": [
+      "AS3",
+      "SCTP",
+      "BIG-IP",
+      "Configuration",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys a simple SCTP service using a specified profile on a BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-referencing-sctp-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-referencing-sctp-profile.json"
+  },
+  {
+    "title": "Example Referencing Security Policy",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "HTTP",
+      "Security",
+      "Policy"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTP service with a WAF policy using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-referencing-security-policy.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-referencing-security-policy.json"
+  },
+  {
+    "title": "VDI Service HTTP Configuration",
+    "tags": [
+      "AS3",
+      "VDI",
+      "HTTP",
+      "Profile"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a virtual server for HTTP service with VDI profiles on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-referencing-vdi-profiles.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-referencing-vdi-profiles.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Configuration with Resource URL Ignore Changes",
+    "tags": [
+      "AS3",
+      "iRule",
+      "Service_UDP",
+      "Configuration",
+      "VirtualServer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a UDP service with an iRule that ignores changes from a specified URL.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-resource-url-ignore-changes.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-resource-url-ignore-changes.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 DNS Nameserver Configuration",
+    "tags": [
+      "AS3",
+      "DNS",
+      "HTTP Profile",
+      "Route Domain"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for setting up a DNS nameserver with specific route domains in F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-route-domain-strings.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-route-domain-strings.json"
+  },
+  {
+    "title": "RTSP Profile Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "RTSP",
+      "Service_TCP",
+      "Network",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an RTSP profile with specific parameters for a TCP service on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-rtsp-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-rtsp-profile.json"
+  },
+  {
+    "title": "Consul Service Discovery Configuration with CA Bundle",
+    "tags": [
+      "AS3",
+      "Consul",
+      "Service Discovery",
+      "HTTP",
+      "Certificate",
+      "Automation"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for service discovery using Consul with a custom CA bundle for secure communication.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-sd-consul-ca.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-sd-consul-ca.json"
+  },
+  {
+    "title": "Consul Service Discovery with Health Endpoint",
+    "tags": [
+      "AS3",
+      "Consul",
+      "Service Discovery",
+      "HTTP",
+      "Health Monitoring"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for service discovery using Consul with health checks for HTTP services.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-sd-consul-jmespath-health.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-sd-consul-jmespath-health.json"
+  },
+  {
+    "title": "Consul Service Discovery Configuration with JMESPath",
+    "tags": [
+      "AS3",
+      "Consul",
+      "Service Discovery",
+      "HTTP",
+      "Configuration",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 BIG-IP AS3 utilizing Consul for service discovery with IP and port inclusion.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-sd-consul-jmespath-ports.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-sd-consul-jmespath-ports.json"
+  },
+  {
+    "title": "Consul Service Discovery Configuration",
+    "tags": [
+      "AS3",
+      "Consul",
+      "Service Discovery",
+      "HTTP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a service using Consul for address discovery without validation.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-sd-consul-no-validation.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-sd-consul-no-validation.json"
+  },
+  {
+    "title": "Consul Service Discovery Configuration",
+    "tags": [
+      "AS3",
+      "Consul",
+      "Service Discovery",
+      "HTTP",
+      "Pool",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures service discovery with Consul for HTTP services using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-sd-consul-service.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-sd-consul-service.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Static and Event Address Discovery Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Address Discovery",
+      "Static",
+      "Event"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a pool with static and event-based address discovery for F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-sd-static-and-event.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-sd-static-and-event.json"
+  },
+  {
+    "title": "Consul Service Discovery Configuration",
+    "tags": [
+      "AS3",
+      "Consul",
+      "Service Discovery",
+      "HTTP",
+      "Pool",
+      "Virtual Address"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for service discovery using HashiCorp Consul with F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-sd-via-hashicorp-consul.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-sd-via-hashicorp-consul.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Bot Defense Security Log Profile",
+    "tags": [
+      "AS3",
+      "Security",
+      "Logging",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for logging bot defense activities in F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-security-log-profile-bot-defense.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-security-log-profile-bot-defense.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Security Log Profile Configuration",
+    "tags": [
+      "AS3",
+      "Security",
+      "Logging",
+      "Profile",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a local security log profile with specific logging and filtering criteria.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-security-log-profile-local.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-security-log-profile-local.json"
+  },
+  {
+    "title": "Security Log Profile for NAT",
+    "tags": [
+      "AS3",
+      "Security",
+      "Logging",
+      "NAT",
+      "Profile"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a security log profile that logs NAT sessions and errors.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-security-log-profile-nat.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-security-log-profile-nat.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Network Security Log Profile",
+    "tags": [
+      "AS3",
+      "Security",
+      "Logging",
+      "Network",
+      "Profile"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a network security log profile for logging rule matches and actions on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-security-log-profile-network.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-security-log-profile-network.json"
+  },
+  {
+    "title": "Security Log Profile with Protocol Inspection",
+    "tags": [
+      "AS3",
+      "Security",
+      "Log Profile",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a security log profile for protocol inspection with specified logging destinations.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-security-log-profile-protocol-inspection.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-security-log-profile-protocol-inspection.json"
+  },
+  {
+    "title": "Remote Security Log Profile Configuration",
+    "tags": [
+      "AS3",
+      "Security",
+      "Logging",
+      "Remote",
+      "Profile",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a remote security log profile for monitoring and logging specific HTTP request and response activities.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-security-log-profile-remote.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-security-log-profile-remote.json"
+  },
+  {
+    "title": "F5 BIG-IP Security Log Profile Configuration",
+    "tags": [
+      "AS3",
+      "Security",
+      "Logging",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a user-defined security log profile with remote logging in F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-security-log-profile-user-defined.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-security-log-profile-user-defined.json"
+  },
+  {
+    "title": "Remote BIG-IP AS3 Declaration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "HTTP",
+      "AWS",
+      "Service_HTTP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a remote BIG-IP system with an HTTP service using AS3 and AWS address discovery.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-send-declaration-to-remote-big-ip-via-remote-sd.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-send-declaration-to-remote-big-ip-via-remote-sd.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Service Address Configuration with Server Scope",
+    "tags": [
+      "AS3",
+      "Service_Address",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a service address with server scope and a generic service on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-address-with-server-scope.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-address-with-server-scope.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Service Address Configuration",
+    "tags": [
+      "AS3",
+      "Service_Address",
+      "Virtual Address",
+      "Network"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a service address with specific virtual address and service settings in F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-address-with-source-address.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-address-with-source-address.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 HTTP Service Configuration",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Service",
+      "Configuration",
+      "AdminState"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a disabled HTTP service on a specified virtual address and port.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-admin-state.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-admin-state.json"
+  },
+  {
+    "title": "Example Service Configuration with Shared Addresses",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Service_Generic",
+      "Service_HTTP",
+      "Addresses"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up generic and HTTP services with shared virtual addresses on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-generic-with-shareAddress.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-generic-with-shareAddress.json"
+  },
+  {
+    "title": "Generic Service Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "Service_Generic",
+      "Configuration",
+      "VirtualServer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a generic service with a virtual server on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-generic.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-generic.json"
+  },
+  {
+    "title": "WebSocket Profile Configuration for HTTP Service",
+    "tags": [
+      "AS3",
+      "WebSocket",
+      "HTTP",
+      "Profile",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a WebSocket profile with specific settings for an HTTP service on F5 BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-http-websocket-profile-ref.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-http-websocket-profile-ref.json"
+  },
+  {
+    "title": "HTTP Service with MRF Routing Configuration",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "MRF",
+      "Route",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with MRF routing enabled on a virtual address.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-http-with-mrf-routing.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-http-with-mrf-routing.json"
+  },
+  {
+    "title": "Idle Timeout Policy Configuration",
+    "tags": [
+      "AS3",
+      "Timeout",
+      "BIG-IP",
+      "Service Policy",
+      "Network"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures idle timeout policies for different protocols and ports on a virtual server.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-policy.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-policy.json"
+  },
+  {
+    "title": "TCP Service with MQTT Enabled Configuration",
+    "tags": [
+      "AS3",
+      "TCP",
+      "MQTT",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a TCP service with MQTT enabled on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-tcp-mqttEnabled.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-tcp-mqttEnabled.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 TCP Service Configuration with Address and Port Lists",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "TCP",
+      "Net Address List",
+      "Net_Port_List"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys a TCP service using specified address and port lists on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-tcp-with-net-port-address-lists.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-tcp-with-net-port-address-lists.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 TCP Service Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "TCP",
+      "Service",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a TCP service with a service down action to drop traffic.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-tcp-with-service-down-action.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-tcp-with-service-down-action.json"
+  },
+  {
+    "title": "TCP Service with Source and Destination Address Lists",
+    "tags": [
+      "AS3",
+      "Firewall",
+      "TCP",
+      "Address List",
+      "Port List",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a TCP service using source and destination address lists with specified ports.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-tcp-with-source-destination-lists.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-tcp-with-source-destination-lists.json"
+  },
+  {
+    "title": "Stateless UDP Service Configuration",
+    "tags": [
+      "AS3",
+      "UDP",
+      "stateless",
+      "BIG-IP",
+      "Networking",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a stateless UDP service on port 53 with a specified virtual address.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-service-udp-stateless.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-service-udp-stateless.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 HTTP Service Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "HTTP",
+      "Load Balancer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an HTTP service with a shared node pool on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-sharenodes-first.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-sharenodes-first.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Configuration with Shared Nodes",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Configuration",
+      "Load Balancer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 BIG-IP AS3 with shared nodes across two partitions.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-sharenodes-second.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-sharenodes-second.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 WAF Policy Configuration",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "BIG-IP",
+      "Certificate",
+      "Security",
+      "Policy"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a WAF policy in F5 BIG-IP AS3, skipping certificate checks for a specified URL.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-skip-url-cert-check-pkcs12.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-skip-url-cert-check-pkcs12.json"
+  },
+  {
+    "title": "SMTP with STARTTLS Configuration",
+    "tags": [
+      "AS3",
+      "SMTP",
+      "STARTTLS",
+      "TLS",
+      "Certificate"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures an SMTP service with STARTTLS on a specific virtual server using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-smtps-starttls.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-smtps-starttls.json"
+  },
+  {
+    "title": "SNAT Pool Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "SNAT",
+      "Pool",
+      "TCP",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a SNAT pool with associated TCP service and pool members on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-snat-pool.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-snat-pool.json"
+  },
+  {
+    "title": "Source Address Virtual Server Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Virtual Server",
+      "Networking",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a generic service with specific virtual addresses and ports on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-source-address-vs.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-source-address-vs.json"
+  },
+  {
+    "title": "SSH Proxy Configuration for F5 BIG-IP AS3",
+    "tags": [
+      "AS3",
+      "SSH",
+      "Proxy",
+      "Security",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an SSH proxy profile with specific control actions and logging for various SSH operations.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-ssh-proxy.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-ssh-proxy.json"
+  },
+  {
+    "title": "Static Named Pool Members Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "ADC",
+      "Configuration",
+      "Static",
+      "Pool"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a static pool with named members in an F5 BIG-IP system using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-static-named-pool-members.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-static-named-pool-members.json"
+  },
+  {
+    "title": "Statistics Profile Configuration for AS3",
+    "tags": [
+      "AS3",
+      "Statistics",
+      "Profile",
+      "iRule",
+      "HTTP",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a statistics profile with iRule for HTTP service on a virtual server.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-statistics-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-statistics-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Stream Profile Configuration",
+    "tags": [
+      "AS3",
+      "Profile",
+      "Service_HTTP",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a stream profile for HTTP services on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-stream-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-stream-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Pool Member Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Pool",
+      "Monitor",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a pool with members using FQDN address discovery and requiring all monitors to be up.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-supports-minimumMonitor-all-for-pool-members.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-supports-minimumMonitor-all-for-pool-members.json"
+  },
+  {
+    "title": "TCP Analytics Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "TCP",
+      "Analytics",
+      "BIG-IP",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys a TCP service with analytics on an F5 BIG-IP system using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tcp-analytics.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tcp-analytics.json"
+  },
+  {
+    "title": "TCP Load Balancing with Custom ICAP Monitor",
+    "tags": [
+      "AS3",
+      "TCP",
+      "Load Balancer",
+      "ICAP",
+      "Custom Monitor"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a TCP load-balanced service to ICAP servers with a custom monitor.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tcp-load-balanced-icap-with-custom-monitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tcp-load-balanced-icap-with-custom-monitor.json"
+  },
+  {
+    "title": "TCP Options Configuration in AS3",
+    "tags": [
+      "AS3",
+      "TCP",
+      "BIG-IP",
+      "Profile",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures TCP options in a TCP profile using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tcp-options-in-tcp-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tcp-options-in-tcp-profile.json"
+  },
+  {
+    "title": "TCP and UDP Monitor Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "TCP",
+      "UDP",
+      "Monitor",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up TCP and UDP monitors for a service on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tcp-udp-monitors.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tcp-udp-monitors.json"
+  },
+  {
+    "title": "Example TFTP Profile Configuration",
+    "tags": [
+      "AS3",
+      "TFTP",
+      "UDP",
+      "Profile",
+      "Logging"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a UDP service with a custom TFTP profile and logging settings.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tftp-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tftp-profile.json"
+  },
+  {
+    "title": "Advanced TLS Client and Server Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Client",
+      "Server",
+      "HTTPS",
+      "Certificate"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures advanced TLS settings for both client and server profiles in an F5 BIG-IP environment.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-client-and-server-advanced-settings.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-client-and-server-advanced-settings.json"
+  },
+  {
+    "title": "TLS Alert Timeout Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "HTTPS",
+      "Configuration",
+      "BIG-IP",
+      "Timeout"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures TLS client and server alert timeouts for a BIG-IP AS3 application.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-client-and-server-alert-timeout.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-client-and-server-alert-timeout.json"
+  },
+  {
+    "title": "TLS Client and Server Cache Timeout Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Cache",
+      "Timeout",
+      "Certificate"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures TLS client and server cache timeouts with specified certificates on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-client-and-server-cache-timeout.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-client-and-server-cache-timeout.json"
+  },
+  {
+    "title": "TLS Client and Server Handshake Timeout Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Configuration",
+      "BIG-IP",
+      "HTTPS",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures TLS client and server handshake timeout settings on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-client-and-server-handshake-timeout.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-client-and-server-handshake-timeout.json"
+  },
+  {
+    "title": "TLS Client and Server Proxy SSL Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "SSL",
+      "Proxy",
+      "HTTPS",
+      "Certificate"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures TLS client and server with proxy SSL for secure HTTPS traffic handling.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-client-and-server-proxy-ssl.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-client-and-server-proxy-ssl.json"
+  },
+  {
+    "title": "TLS Client and Server Renegotiation Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Renegotiation",
+      "HTTPS",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures TLS renegotiation settings for client and server on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-client-and-server-renegotiation.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-client-and-server-renegotiation.json"
+  },
+  {
+    "title": "TLS Client and Server Configuration with Retain Certificate",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Certificate",
+      "BIG-IP",
+      "HTTPS",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a TLS client and server with certificate retention on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-client-and-server-retain-certificate.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-client-and-server-retain-certificate.json"
+  },
+  {
+    "title": "TLS Client and Server SSL Protocol Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "SSL",
+      "HTTPS",
+      "Certificate",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an HTTPS service with specified TLS client and server settings on BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-client-and-server-ssl-protocol.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-client-and-server-ssl-protocol.json"
+  },
+  {
+    "title": "TLS Client and Server SSL Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "SSL",
+      "Certificate",
+      "HTTPS",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a TLS client and server with SHA-256 signing for secure HTTPS communication.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-client-and-server-ssl-sign-hash.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-client-and-server-ssl-sign-hash.json"
+  },
+  {
+    "title": "TLS Server and Client Authentication Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "HTTPS",
+      "Proxy",
+      "Certificate",
+      "Authentication"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a TLS server and client with authentication depth and forward proxy capabilities using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-server-and-client-authentication-depth.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-server-and-client-authentication-depth.json"
+  },
+  {
+    "title": "TLS Server and Client Forward Proxy Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Proxy",
+      "BIG-IP",
+      "HTTPS"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a TLS server and client forward proxy using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-server-and-client-forward-proxy.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-server-and-client-forward-proxy.json"
+  },
+  {
+    "title": "TLS Server Configuration with Forward Proxy Bypass",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Proxy",
+      "Configuration",
+      "Data Group"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a TLS server with forward proxy and bypass allowlist using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-server-forwardProxyBypassAllowList.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-server-forwardProxyBypassAllowList.json"
+  },
+  {
+    "title": "TLS Server Naming Scheme Configuration",
+    "tags": [
+      "AS3",
+      "TLS",
+      "Certificate",
+      "HTTPS",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a TLS server with a specific naming scheme for certificates in an F5 BIG-IP environment.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-tls-server-naming-scheme.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-tls-server-naming-scheme.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Trace Response Configuration",
+    "tags": [
+      "AS3",
+      "Configuration",
+      "Trace",
+      "HTTP",
+      "Application"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures trace response settings for a sample HTTP service in a tenant.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-trace-response.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-trace-response.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Traffic Log Profile Configuration",
+    "tags": [
+      "AS3",
+      "Traffic Log",
+      "BIG-IP",
+      "Configuration",
+      "Management"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up traffic log profiles for monitoring and logging HTTP traffic on an F5 BIG-IP system.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-traffic-log-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-traffic-log-profile.json"
+  },
+  {
+    "title": "Two Applications Sharing a Pool Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "ADC",
+      "HTTP",
+      "HTTPS"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for two applications sharing a common pool with HTTP and HTTPS services.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-two-applications-share-pool.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-two-applications-share-pool.json"
+  },
+  {
+    "title": "UDP DNS Load Balancer Configuration",
+    "tags": [
+      "AS3",
+      "UDP",
+      "DNS",
+      "Load Balancer",
+      "VirtualServer"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a UDP DNS load balancer service on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-udp-virtual-service.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-udp-virtual-service.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Non-Default Route Domain Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Virtual Server",
+      "Route Domain",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures virtual servers with non-default route domains on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-use-nonDefaultRouteDomain-virtualAddresses.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-use-nonDefaultRouteDomain-virtualAddresses.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Configuration with Custom Route Domain",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Load Balancer",
+      "Pool",
+      "Network",
+      "Application"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a tenant with a custom route domain and a load balancing pool using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-useCommonRouteDomainTenant.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-useCommonRouteDomainTenant.json"
+  },
+  {
+    "title": "User Agent Controls Configuration",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "Configuration",
+      "User Agent",
+      "HTTP Service"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a user agent control for an HTTP service on BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-useragent-controls.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-useragent-controls.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Firewall and NAT Configuration",
+    "tags": [
+      "AS3",
+      "Firewall",
+      "NAT",
+      "Security",
+      "Network",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up firewall and NAT features using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-using-firewall-nat-features.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-using-firewall-nat-features.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Firewall Configuration",
+    "tags": [
+      "AS3",
+      "Firewall",
+      "Security",
+      "Logging",
+      "Network",
+      "Policy"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys a firewall policy with rules and logging for network security using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-using-firewall-rules-policies-logging.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-using-firewall-rules-policies-logging.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Configuration with FIX Profile and Data Groups",
+    "tags": [
+      "AS3",
+      "FIX Profile",
+      "Data Group",
+      "Service_TCP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up a TCP service with a custom FIX profile and associated data groups on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-using-fix-profile-and-data-groups.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-using-fix-profile-and-data-groups.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Configuration with FTP and SIP Profiles",
+    "tags": [
+      "AS3",
+      "FTP",
+      "SIP",
+      "Profile",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys an AS3 declaration using existing SIP and FTP profiles.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-using-ftp-sip-profiles.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-using-ftp-sip-profiles.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Rewrite Profile Configuration",
+    "tags": [
+      "AS3",
+      "Rewrite Profile",
+      "HTTP",
+      "Virtual Server",
+      "Certificate",
+      "URI Translation"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for an F5 BIG-IP AS3 application using a rewrite profile to manage HTTP traffic.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-using-rewrite-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-using-rewrite-profile.json"
+  },
+  {
+    "title": "SOCKS Profile Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "SOCKS",
+      "TCP",
+      "Profile",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a SOCKS profile for TCP services on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-using-socks-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-using-socks-profile.json"
+  },
+  {
+    "title": "UDP Virtual Server Configuration with Route Domain",
+    "tags": [
+      "AS3",
+      "BIG-IP",
+      "UDP",
+      "Virtual Server",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a UDP virtual server with a specific route domain and pool on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-virtualserver-name-with-routedomainIdentifier.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-virtualserver-name-with-routedomainIdentifier.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Configuration for Multiple Port Listening",
+    "tags": [
+      "AS3",
+      "HTTP",
+      "Load Balancer",
+      "Virtual Server",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up an F5 BIG-IP virtual server to listen on multiple ports for HTTP traffic.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-vs-listening-on-multiple-ports.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-vs-listening-on-multiple-ports.json"
+  },
+  {
+    "title": "VLAN-Specific HTTP Application Configuration",
+    "tags": [
+      "AS3",
+      "VLAN",
+      "HTTP",
+      "BIG-IP",
+      "Application",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration deploys an HTTP application with access restricted to specific VLANs.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-vs-specific-vlans.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-vs-specific-vlans.json"
+  },
+  {
+    "title": "Example WAF Signature Disable Configuration",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "Security",
+      "Configuration",
+      "Policy"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration disables specific attack signatures in a WAF policy using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-waf-attack-sig-exceptions.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-waf-attack-sig-exceptions.json"
+  },
+  {
+    "title": "Basic Auth WAF Configuration",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "Security",
+      "Basic Auth",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a WAF policy with basic authentication in transparent mode.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-waf-basic-auth.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-waf-basic-auth.json"
+  },
+  {
+    "title": "Example WAF Bearer Token Authentication",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "Bearer Token",
+      "Authentication",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a WAF policy using bearer token authentication for policy download.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-waf-bearer-token-auth.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-waf-bearer-token-auth.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 WAF Policy Configuration",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "Security",
+      "HTTP",
+      "Policy"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a WAF policy for an HTTP service using F5 BIG-IP AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-waf-policy-base64.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-waf-policy-base64.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 WAF Policy Configuration",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "HTTP",
+      "Security",
+      "Policy"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a WAF policy with string expansion for an HTTP service on F5 BIG-IP using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-waf-policy-string-expansion.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-waf-policy-string-expansion.json"
+  },
+  {
+    "title": "WAF Policy Configuration for BIG-IP AS3",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "Policy",
+      "HTTP",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a WAF policy for HTTP service using AS3 on BIG-IP.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-waf-policy-text.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-waf-policy-text.json"
+  },
+  {
+    "title": "Example WAF Policy Configuration",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "Policy",
+      "HTTP",
+      "Security"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a WAF policy using an external URL for the policy definition.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-waf-policy-url.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-waf-policy-url.json"
+  },
+  {
+    "title": "Example WAF Server Technologies Configuration",
+    "tags": [
+      "AS3",
+      "Application Security",
+      "Server Technologies",
+      "Security",
+      "Policy"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures a WAF policy with specific server technologies in transparent mode.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-waf-server-technologies.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-waf-server-technologies.json"
+  },
+  {
+    "title": "WebSocket Profile Configuration for F5 BIG-IP",
+    "tags": [
+      "AS3",
+      "WebSocket",
+      "HTTP",
+      "Profile",
+      "Configuration"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a WebSocket profile on an F5 BIG-IP system using AS3.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/example-websocket-profile.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/example-websocket-profile.json"
+  },
+  {
+    "title": "F5 BIG-IP AS3 Ping Access Configuration",
+    "tags": [
+      "AS3",
+      "Access Policy",
+      "Configuration",
+      "Security",
+      "Networking"
+    ],
+    "contentType": [
+      "AS3"
+    ],
+    "isFeatured": false,
+    "description": "Configures Ping Access agent properties for secure communication and access management.",
+    "url": "https://github.com/F5Networks/f5-appsvcs-extension/tree/main/examples/declarations/examples-ping-access-properties.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-appsvcs-extension/main/examples/declarations/examples-ping-access-properties.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding Disk Configuration",
+    "tags": [
+      "DO",
+      "Disk",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures the application data size for an F5 device using Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/applicationDataSize.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/applicationDataSize.json"
+  },
+  {
+    "title": "Audit Logging Configuration for F5 Device",
+    "tags": [
+      "DO",
+      "Audit",
+      "Logging",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Enables audit logging for TMSH, GUI, and MCP on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/auditLogging.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/auditLogging.json"
+  },
+  {
+    "title": "F5 Authentication Methods Configuration",
+    "tags": [
+      "DO",
+      "Authentication"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures LDAP, RADIUS, and TACACS authentication methods on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/authMethods.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/authMethods.json"
+  },
+  {
+    "title": "AVR Streaming Support Configuration",
+    "tags": [
+      "DO",
+      "AVR",
+      "Analytics",
+      "Provisioning",
+      "License"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures AVR streaming support with offbox analytics and licensing.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/avrStreamingSupport.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/avrStreamingSupport.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding Configuration with Advisory Banner",
+    "tags": [
+      "DO",
+      "AS3",
+      "Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Sets up a device with an advisory banner indicating AS3 deployment.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/banner.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/banner.json"
+  },
+  {
+    "title": "F5 BGP Configuration",
+    "tags": [
+      "DO",
+      "BGP",
+      "Route",
+      "Configuration",
+      "Networking"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures BGP routing with AS paths, prefix lists, and route maps on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/bgp.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/bgp.json"
+  },
+  {
+    "title": "F5 BIG-IP Cluster Configuration",
+    "tags": [
+      "DO",
+      "Cluster",
+      "ConfigSync",
+      "Failover"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a BIG-IP device for cluster setup with IP addresses for config sync and failover.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/clusterWithIpAddresses.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/clusterWithIpAddresses.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding Global Settings",
+    "tags": [
+      "DO",
+      "Configuration",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configuration file for setting global parameters in F5 Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/dagGlobals.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/dagGlobals.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding Configuration",
+    "tags": [
+      "DO",
+      "Configuration",
+      "Automation"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for onboarding a BIG-IP device using F5 Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/debugTrace.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/debugTrace.json"
+  },
+  {
+    "title": "Device Certificate Configuration",
+    "tags": [
+      "DO",
+      "Certificate Management",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a device certificate for a BIG-IP system using Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/deviceCertificate.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/deviceCertificate.json"
+  },
+  {
+    "title": "F5 Device Certificate and Trust Configuration",
+    "tags": [
+      "DO",
+      "Certificate Management",
+      "Trust Certificates",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures device certificates and updates trust certificates on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/deviceCertificateAndTrustCertificates.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/deviceCertificateAndTrustCertificates.json"
+  },
+  {
+    "title": "F5 DNS Resolver Configuration",
+    "tags": [
+      "DO",
+      "DNS",
+      "Resolver",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a DNS resolver with specific forwarding zones and protocol settings.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/dnsResolver.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/dnsResolver.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding Dry Run Configuration",
+    "tags": [
+      "DO",
+      "Configuration",
+      "Dry Run"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "A configuration file for performing a dry run of F5 Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/dryRun.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/dryRun.json"
+  },
+  {
+    "title": "Failover Multicast Configuration",
+    "tags": [
+      "DO",
+      "Failover",
+      "Multicast",
+      "Networking"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures failover multicast settings for F5 devices using Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/failoverMulticast.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/failoverMulticast.json"
+  },
+  {
+    "title": "F5 Firewall Policy Configuration",
+    "tags": [
+      "DO",
+      "Firewall",
+      "Security",
+      "AFM",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a firewall policy with specific rules and address/port lists on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/firewallPolicy.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/firewallPolicy.json"
+  },
+  {
+    "title": "GSLB Data Center Configuration",
+    "tags": [
+      "DO",
+      "GSLB",
+      "Provisioning"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a GSLB Data Center with specified settings and provisioning.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/gslbDataCenter.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/gslbDataCenter.json"
+  },
+  {
+    "title": "GSLB Global Configuration for F5",
+    "tags": [
+      "DO",
+      "GSLB",
+      "Configuration",
+      "Synchronization"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures global settings for GSLB including synchronization options.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/gslbGlobals.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/gslbGlobals.json"
+  },
+  {
+    "title": "GSLB Monitor Configuration",
+    "tags": [
+      "DO",
+      "GSLB",
+      "Monitor",
+      "Provisioning",
+      "Device"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for GSLB monitors and servers using F5 Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/gslbMonitor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/gslbMonitor.json"
+  },
+  {
+    "title": "GSLB Prober Pool Configuration",
+    "tags": [
+      "DO",
+      "GSLB",
+      "Pool",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a GSLB prober pool with server and data center settings.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/gslbProberPool.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/gslbProberPool.json"
+  },
+  {
+    "title": "GSLB Server Configuration",
+    "tags": [
+      "DO",
+      "GSLB",
+      "Server",
+      "Configuration",
+      "Networking"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a GSLB server with specific properties and limits in an F5 environment.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/gslbServer.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/gslbServer.json"
+  },
+  {
+    "title": "F5 HTTPD Configuration",
+    "tags": [
+      "DO",
+      "HTTPD",
+      "SSL",
+      "Security",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures HTTPD settings on an F5 device with specific access, SSL ciphers, and protocols.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/httpd.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/httpd.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding LDAP SSL Configuration",
+    "tags": [
+      "DO",
+      "Authentication",
+      "SSL",
+      "Networking"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures LDAP authentication with SSL and custom CA certificate for F5 devices using Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/ldapSslCaCertUrlRef.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/ldapSslCaCertUrlRef.json"
+  },
+  {
+    "title": "License BIG-IP via BIG-IQ with External Auth",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "Licensing",
+      "External Auth",
+      "Automation"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures BIG-IP licensing through BIG-IQ using an external authentication provider.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/licenseViaBigIqPoolAuthProvider.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/licenseViaBigIqPoolAuthProvider.json"
+  },
+  {
+    "title": "BIG-IP License via BIG-IQ Pool Unreachable",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "License",
+      "Hypervisor"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures BIG-IP licensing through a BIG-IQ pool when direct reachability is not possible.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/licenseViaBigIqPoolUnreachableHEXHypervisor.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/licenseViaBigIqPoolUnreachableHEXHypervisor.json"
+  },
+  {
+    "title": "F5 BIG-IP Licensing via BIG-IQ",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "License",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures BIG-IP to obtain a license from a BIG-IQ managed purchased pool when reachable.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/licenseViaBigIqPurchasedPoolReachable.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/licenseViaBigIqPurchasedPoolReachable.json"
+  },
+  {
+    "title": "License BIG-IP via BIG-IQ Unreachable Pool",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "License",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures BIG-IP licensing through BIG-IQ's purchased pool when BIG-IQ is unreachable.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/licenseViaBigIqPurchasedPoolUnreachable.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/licenseViaBigIqPurchasedPoolUnreachable.json"
+  },
+  {
+    "title": "F5 BIG-IP Licensing via BIG-IQ",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "Licensing",
+      "Automation"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures BIG-IP licensing through BIG-IQ using App Services Gateway when BIG-IP is reachable.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/licenseViaBigIqReachableASG.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/licenseViaBigIqReachableASG.json"
+  },
+  {
+    "title": "F5 BIG-IP Licensing via BIG-IQ RegKey Pool",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "Licensing",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "This configuration licenses a BIG-IP device using a BIG-IQ RegKey pool and sets up basic network settings.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/licenseViaBigIqRegKeyPool.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/licenseViaBigIqRegKeyPool.json"
+  },
+  {
+    "title": "BIG-IP Licensing via BIG-IQ Utility",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "License",
+      "Utility",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures BIG-IP licensing through BIG-IQ utility when reachable.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/licenseViaBigIqUtilityReachable.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/licenseViaBigIqUtilityReachable.json"
+  },
+  {
+    "title": "BIG-IP Licensing via BIG-IQ with Unreachable BIG-IP",
+    "tags": [
+      "DO",
+      "Licensing",
+      "BIG-IP",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures BIG-IP licensing using BIG-IQ utility when BIG-IP is not reachable from BIG-IQ.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/licenseViaBigIqUtilityUnreachable.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/licenseViaBigIqUtilityUnreachable.json"
+  },
+  {
+    "title": "Local Only Routes Configuration",
+    "tags": [
+      "DO",
+      "VLAN",
+      "Route",
+      "Self IP"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a local-only route on an F5 device with a new VLAN and Self IP.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/localOnlyRoutes.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/localOnlyRoutes.json"
+  },
+  {
+    "title": "MAC Masquerade Configuration for F5",
+    "tags": [
+      "DO",
+      "MAC Masquerade",
+      "Network",
+      "Traffic Management"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures MAC masquerade for traffic group management on F5 devices.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/macMasquerade.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/macMasquerade.json"
+  },
+  {
+    "title": "F5 Management IP Configuration",
+    "tags": [
+      "DO",
+      "Management",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures the management IP address for an F5 device using Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/managementIp.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/managementIp.json"
+  },
+  {
+    "title": "F5 Management IP Firewall with AFM Provisioned",
+    "tags": [
+      "DO",
+      "Firewall",
+      "AFM",
+      "Management",
+      "Provisioning",
+      "Security"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures management IP firewall with AFM provisioning and specific firewall rules.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/managementIpFirewalWithAfmProvisioned.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/managementIpFirewalWithAfmProvisioned.json"
+  },
+  {
+    "title": "F5 Management IP Firewall Configuration",
+    "tags": [
+      "DO",
+      "Firewall",
+      "Management",
+      "Security"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a management IP firewall with specific rules and address/port lists.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/managementIpFirewall.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/managementIpFirewall.json"
+  },
+  {
+    "title": "Management Route Interface Configuration",
+    "tags": [
+      "DO",
+      "Management",
+      "Route",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a management route using an interface on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/managementRouteInterface.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/managementRouteInterface.json"
+  },
+  {
+    "title": "F5 Management DHCP Configuration",
+    "tags": [
+      "DO",
+      "DHCP",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures F5 device management with DHCP enabled and preserves original DHCP routes.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/mgmtDhcpEnabled.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/mgmtDhcpEnabled.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding Mirror IP Configuration",
+    "tags": [
+      "DO",
+      "VLAN",
+      "Self IP",
+      "Mirror IP"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a VLAN and Self IP with mirror IP settings on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/mirrorIp.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/mirrorIp.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding with Multiple Failover Unicasts",
+    "tags": [
+      "DO",
+      "Failover",
+      "VLAN",
+      "Self IP"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures F5 device with multiple failover unicast addresses and VLAN settings.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/multipleFailoverUnicasts.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/multipleFailoverUnicasts.json"
+  },
+  {
+    "title": "F5 BIG-IP Declarative Onboarding Configuration",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "Network",
+      "Provisioning"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up initial settings and provisioning for an F5 BIG-IP system using declarative onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/onboard.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/onboard.json"
+  },
+  {
+    "title": "BIG-IP HA Pair Onboarding Configuration",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "HA",
+      "Failover",
+      "Configuration",
+      "Networking"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a BIG-IP device for high availability and failover in a pair.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/onboardFailover.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/onboardFailover.json"
+  },
+  {
+    "title": "AWS F5 BIG-IQ Declarative Onboarding",
+    "tags": [
+      "DO",
+      "AWS",
+      "BIG-IP",
+      "LTM"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file is used for onboarding an F5 device via BIG-IQ in AWS using declarative onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/onboardViaBigIqAws.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/onboardViaBigIqAws.json"
+  },
+  {
+    "title": "F5 Password Policy Configuration",
+    "tags": [
+      "DO",
+      "Password Policy",
+      "Security",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a password policy with specific requirements for F5 devices.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/passwordPolicy.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/passwordPolicy.json"
+  },
+  {
+    "title": "Preserve Original DHCP Routes Configuration",
+    "tags": [
+      "DO",
+      "DHCP",
+      "Management"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "This configuration preserves original DHCP routes and sets a new management route.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/preserveOrigDhcpRoutes.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/preserveOrigDhcpRoutes.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding Public Keys Configuration",
+    "tags": [
+      "DO",
+      "SSH",
+      "Configuration",
+      "Certificate Management"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures SSH public keys and user credentials for an F5 BIG-IP device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/publicKeys.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/publicKeys.json"
+  },
+  {
+    "title": "Re-license BIG-IP Configuration",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "License",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Re-license BIG-IP device while revoking the current license using a registration key.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/reLicenseBigIp.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/reLicenseBigIp.json"
+  },
+  {
+    "title": "Re-license BIG-IP via BIG-IQ",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "License Management",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "This configuration re-licenses a BIG-IP device from a different pool when reachable from BIG-IQ.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/reLicenseViaBigIqReachable.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/reLicenseViaBigIqReachable.json"
+  },
+  {
+    "title": "Re-license BIG-IP via BIG-IQ Unreachable",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "License",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures BIG-IP to re-license from a different pool when BIG-IQ is not reachable.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/reLicenseViaBigIqUnreachable.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/reLicenseViaBigIqUnreachable.json"
+  },
+  {
+    "title": "Re-license BIG-IP with Unreachable BIG-IQ",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "Licensing",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "This configuration re-licenses a BIG-IP device from a different BIG-IQ when the BIG-IP is not reachable from the BIG-IQ.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/reLicenseViaNewBigIqUnreachable.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/reLicenseViaNewBigIqUnreachable.json"
+  },
+  {
+    "title": "F5 Remote Role Configuration",
+    "tags": [
+      "DO",
+      "Roles",
+      "Configuration",
+      "LTM"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures remote authentication roles for F5 device management.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/remoteRoleVariableFields.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/remoteRoleVariableFields.json"
+  },
+  {
+    "title": "F5 Remote Authentication Roles Configuration",
+    "tags": [
+      "DO",
+      "Authentication",
+      "Roles",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures remote authentication roles for F5 device using LDAP attributes.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/remoteRoles.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/remoteRoles.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding Configuration",
+    "tags": [
+      "DO",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures device with additional memory for REST Java daemon using F5 Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/restjavad.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/restjavad.json"
+  },
+  {
+    "title": "Revoke BIG-IP License via BIG-IQ Unreachable",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "License Management",
+      "Networking",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configuration to revoke a BIG-IP license via BIG-IQ when the BIG-IP is unreachable.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/revokeViaBigIqUnreachable.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/revokeViaBigIqUnreachable.json"
+  },
+  {
+    "title": "F5 Route Domains Configuration",
+    "tags": [
+      "DO",
+      "Route Domain",
+      "VLAN",
+      "Self IP",
+      "Networking"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures route domains, VLANs, and self IPs on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/routeDomains.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/routeDomains.json"
+  },
+  {
+    "title": "F5 Route Interface Configuration",
+    "tags": [
+      "DO",
+      "Network",
+      "Route",
+      "Interface"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a route interface on an F5 device using Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/routeInterface.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/routeInterface.json"
+  },
+  {
+    "title": "F5 Route Map Configuration",
+    "tags": [
+      "DO",
+      "Route",
+      "VLAN",
+      "Route Domain",
+      "Route Map"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures routing with VLANs, route domains, and route maps on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/routeMap.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/routeMap.json"
+  },
+  {
+    "title": "F5 Routing Access List Configuration",
+    "tags": [
+      "DO",
+      "Route",
+      "Access List",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures routing access lists with permit and deny rules on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/routingAccessList.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/routingAccessList.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding Routing AS Path Configuration",
+    "tags": [
+      "DO",
+      "Route",
+      "Configuration",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures routing as path for a BIG-IP device using F5 Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/routingAsPath.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/routingAsPath.json"
+  },
+  {
+    "title": "F5 Routing Prefix List Configuration",
+    "tags": [
+      "DO",
+      "Route",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures routing prefix lists and associated route domains on an F5 BIG-IP device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/routingPrefixList.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/routingPrefixList.json"
+  },
+  {
+    "title": "F5 Security Analytics Configuration",
+    "tags": [
+      "DO",
+      "Security",
+      "Analytics",
+      "Configuration",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures security analytics settings for F5 devices.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/securityAnalytics.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/securityAnalytics.json"
+  },
+  {
+    "title": "F5 Security WAF Configuration",
+    "tags": [
+      "DO",
+      "Security",
+      "Application Security",
+      "AntiVirus",
+      "Advanced Settings"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures F5 device with security WAF settings including antivirus protection and advanced settings.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/securityWaf.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/securityWaf.json"
+  },
+  {
+    "title": "Skip Device Certificates Configuration",
+    "tags": [
+      "DO",
+      "Certificate Management",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configuration to skip device certificates during onboarding for an F5 BIG-IP device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/skipDeviceCertificates.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/skipDeviceCertificates.json"
+  },
+  {
+    "title": "SNMP Configuration for F5 Device",
+    "tags": [
+      "DO",
+      "SNMP",
+      "Configuration",
+      "Onboarding"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures SNMP settings including agents, users, communities, and trap destinations on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/snmp.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/snmp.json"
+  },
+  {
+    "title": "SSHD Configuration for F5 Device",
+    "tags": [
+      "DO",
+      "SSHD",
+      "Security",
+      "Network",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets SSHD settings including allowed IPs, ciphers, and timeouts on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/sshd.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/sshd.json"
+  },
+  {
+    "title": "Syslog Destination Configuration",
+    "tags": [
+      "DO",
+      "Logging",
+      "Remote Server",
+      "Networking"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures remote syslog servers for logging on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/syslogDestination.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/syslogDestination.json"
+  },
+  {
+    "title": "F5 System Configuration",
+    "tags": [
+      "DO",
+      "System",
+      "Configuration",
+      "Onboarding",
+      "Device"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures system settings for an F5 device using Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/system.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/system.json"
+  },
+  {
+    "title": "TCP Forward Tunnel Configuration",
+    "tags": [
+      "DO",
+      "Tunnel",
+      "TCP",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a TCP forward tunnel with specific settings on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/tcpForwardTunnel.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/tcpForwardTunnel.json"
+  },
+  {
+    "title": "Traffic Control Configuration",
+    "tags": [
+      "DO",
+      "Traffic Control",
+      "Network",
+      "Configuration",
+      "Management"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures traffic control settings on an F5 device using Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/trafficControl.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/trafficControl.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding Traffic Group Configuration",
+    "tags": [
+      "DO",
+      "Traffic Group",
+      "Cluster",
+      "Failover",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures traffic groups and failover settings for an F5 device using Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/trafficGroups.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/trafficGroups.json"
+  },
+  {
+    "title": "F5 Declarative Onboarding User Configuration",
+    "tags": [
+      "DO",
+      "Management",
+      "Configuration",
+      "Security"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "This configuration file sets up users and their access levels on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/user.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/user.json"
+  },
+  {
+    "title": "F5 BIG-IP System Configuration",
+    "tags": [
+      "DO",
+      "System Configuration",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures system settings and user agent for F5 BIG-IP using Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/userAgent.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/userAgent.json"
+  },
+  {
+    "title": "BIG-IP Onboarding via App Services Gateway",
+    "tags": [
+      "DO",
+      "BIG-IP",
+      "Onboarding",
+      "Network"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a BIG-IP device using App Services Gateway with DNS, NTP, VLANs, and user settings.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/viaASG.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/viaASG.json"
+  },
+  {
+    "title": "F5 VLAN Configuration with Auto Last Hop Settings",
+    "tags": [
+      "DO",
+      "VLAN",
+      "Networking",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures VLANs with specific tagging and auto last hop settings on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/vlanAutoLastHop.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/vlanAutoLastHop.json"
+  },
+  {
+    "title": "VLAN Configuration with CMP Hash",
+    "tags": [
+      "DO",
+      "VLAN",
+      "CmpHash",
+      "Networking"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a VLAN with CMP Hashing based on source IP for an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/vlanCmpHash.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/vlanCmpHash.json"
+  },
+  {
+    "title": "VLAN Failsafe Configuration",
+    "tags": [
+      "DO",
+      "VLAN",
+      "Failover",
+      "Configuration"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a VLAN with failsafe settings on an F5 device.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/vlanFailsafe.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/vlanFailsafe.json"
+  },
+  {
+    "title": "VXLAN Tunnel Configuration",
+    "tags": [
+      "DO",
+      "VXLAN",
+      "Tunnel",
+      "Networking",
+      "BIG-IP"
+    ],
+    "contentType": [
+      "DO"
+    ],
+    "isFeatured": false,
+    "description": "Configures a VXLAN tunnel on an F5 device using Declarative Onboarding.",
+    "url": "https://github.com/F5Networks/f5-declarative-onboarding/tree/main/examples/vxlanTunnel.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-declarative-onboarding/main/examples/vxlanTunnel.json"
+  },
+  {
+    "title": "Basic Event Listener Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Listener",
+      "Configuration",
+      "Event"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "A basic configuration for enabling a telemetry event listener on port 6514 with input and output tracing.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/Listener/event_listener_basic.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/Listener/event_listener_basic.json"
+  },
+  {
+    "title": "F5 Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "System",
+      "iHealth",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Telemetry Streaming with system and iHealth pollers.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/System/system.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/System/system.json"
+  },
+  {
+    "title": "Custom Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Endpoints",
+      "Profile",
+      "System"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for custom telemetry endpoints and polling intervals.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/System/system_custom_endpoints.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/System/system_custom_endpoints.json"
+  },
+  {
+    "title": "F5 Telemetry Streaming with Custom SNMP Endpoints",
+    "tags": [
+      "TS",
+      "SNMP",
+      "Telemetry",
+      "System",
+      "Endpoints",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Telemetry Streaming using custom SNMP endpoints and system pollers.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/System/system_custom_endpoints_with_snmp.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/System/system_custom_endpoints_with_snmp.json"
+  },
+  {
+    "title": "Telemetry Streaming Configuration for Action Matching",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Configuration",
+      "System",
+      "Virtual Server"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Telemetry Streaming that matches actions based on virtual server states and system readiness.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/action_matching.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/action_matching.json"
+  },
+  {
+    "title": "F5 Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Logging",
+      "Monitor",
+      "Splunk"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Telemetry Streaming with logging and monitoring settings.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/all_properties.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/all_properties.json"
+  },
+  {
+    "title": "Basic Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Splunk",
+      "System",
+      "Listener"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configures telemetry streaming with a system poller and Splunk consumer.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/basic.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/basic.json"
+  },
+  {
+    "title": "AWS CloudWatch Logs Configuration",
+    "tags": [
+      "TS",
+      "AWS",
+      "CloudWatch",
+      "Telemetry",
+      "Logging"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to AWS CloudWatch Logs.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/AWS_CloudWatch/aws_cloudwatch_logs.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/AWS_CloudWatch/aws_cloudwatch_logs.json"
+  },
+  {
+    "title": "AWS CloudWatch Metrics Configuration",
+    "tags": [
+      "TS",
+      "AWS",
+      "CloudWatch",
+      "Metrics",
+      "Telemetry"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry metrics to AWS CloudWatch.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/AWS_CloudWatch/aws_cloudwatch_metrics.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/AWS_CloudWatch/aws_cloudwatch_metrics.json"
+  },
+  {
+    "title": "AWS S3 Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "AWS",
+      "S3",
+      "Telemetry",
+      "Streaming",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to AWS S3.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/AWS_S3/aws_s3.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/AWS_S3/aws_s3.json"
+  },
+  {
+    "title": "Azure Application Insights Configuration",
+    "tags": [
+      "TS",
+      "Azure",
+      "Application Insights",
+      "Telemetry",
+      "Streaming"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configures F5 Telemetry Streaming to send data to Azure Application Insights.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Azure_Application_Insights/azure_application_insights.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Azure_Application_Insights/azure_application_insights.json"
+  },
+  {
+    "title": "Azure Application Insights Telemetry Configuration",
+    "tags": [
+      "TS",
+      "Azure",
+      "Application Insights",
+      "Telemetry",
+      "Streaming"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to Azure Application Insights using managed identity.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Azure_Application_Insights/azure_application_insights_mi.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Azure_Application_Insights/azure_application_insights_mi.json"
+  },
+  {
+    "title": "Azure Log Analytics Configuration for Telemetry Streaming",
+    "tags": [
+      "TS",
+      "Azure",
+      "Analytics",
+      "Telemetry",
+      "Streaming"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to Azure Log Analytics.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Azure_Log_Analytics/azure_log_analytics.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Azure_Log_Analytics/azure_log_analytics.json"
+  },
+  {
+    "title": "Azure Log Analytics Managed Identity Configuration",
+    "tags": [
+      "TS",
+      "Azure",
+      "Analytics",
+      "Managed Identity",
+      "Telemetry"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for sending telemetry data to Azure Log Analytics using Managed Identity.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Azure_Log_Analytics/azure_log_analytics_mi.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Azure_Log_Analytics/azure_log_analytics_mi.json"
+  },
+  {
+    "title": "DataDog Telemetry Configuration",
+    "tags": [
+      "TS",
+      "DataDog",
+      "Telemetry",
+      "Metrics",
+      "Proxy"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to DataDog with optional proxy settings and custom HTTP options.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/DataDog/data_dog.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/DataDog/data_dog.json"
+  },
+  {
+    "title": "ElasticSearch Telemetry Consumer Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "ElasticSearch",
+      "Consumer",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for sending telemetry data to an ElasticSearch consumer.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/ElasticSearch/elasticsearch.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/ElasticSearch/elasticsearch.json"
+  },
+  {
+    "title": "F5 Telemetry Streaming Configuration for Cloud Integration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Cloud",
+      "System",
+      "Endpoints",
+      "Consumer"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Telemetry Streaming with cloud integration and system polling.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/F5_Cloud/f5_cloud.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/F5_Cloud/f5_cloud.json"
+  },
+  {
+    "title": "Fluentd HTTP Telemetry Consumer Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "HTTP",
+      "Consumer",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configures a telemetry consumer to send data to a Fluentd endpoint using HTTP.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/FluentD/fluentd.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/FluentD/fluentd.json"
+  },
+  {
+    "title": "Generic HTTP Telemetry Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "HTTP",
+      "Consumer",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for sending telemetry data via a generic HTTP consumer.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Generic_HTTP/generic_http.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Generic_HTTP/generic_http.json"
+  },
+  {
+    "title": "Generic HTTP Telemetry with Fallback Hosts",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "HTTP",
+      "Consumer",
+      "Fallback",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "This configuration sets up a Generic HTTP telemetry consumer with multiple fallback hosts for data streaming.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Generic_HTTP/generic_http_fallback.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Generic_HTTP/generic_http_fallback.json"
+  },
+  {
+    "title": "Generic HTTP JMESPath Expression Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "HTTP",
+      "JMESPath",
+      "Consumer"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a telemetry consumer using Generic HTTP with a JMESPath expression.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Generic_HTTP/generic_http_jmespath_expression.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Generic_HTTP/generic_http_jmespath_expression.json"
+  },
+  {
+    "title": "Generic HTTP Proxy Configuration for Telemetry Streaming",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Proxy",
+      "HTTP",
+      "HTTPS",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Telemetry Streaming using generic HTTP proxy settings.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Generic_HTTP/generic_http_proxy.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Generic_HTTP/generic_http_proxy.json"
+  },
+  {
+    "title": "Generic HTTP TLS Client Authentication Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "HTTP",
+      "TLS",
+      "Client Authentication"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a telemetry consumer using HTTPS with TLS client authentication.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Generic_HTTP/generic_http_tls_client_auth.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Generic_HTTP/generic_http_tls_client_auth.json"
+  },
+  {
+    "title": "Google Cloud Logging Configuration for Telemetry Streaming",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Google Cloud",
+      "Logging",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to Google Cloud Logging.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Google_Cloud_Logging/google_cloud_logging.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Google_Cloud_Logging/google_cloud_logging.json"
+  },
+  {
+    "title": "Google Cloud Logging Configuration for Telemetry Streaming",
+    "tags": [
+      "TS",
+      "Google Cloud",
+      "Logging",
+      "Telemetry",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to Google Cloud Logging.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Google_Cloud_Logging/google_cloud_logging_sat.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Google_Cloud_Logging/google_cloud_logging_sat.json"
+  },
+  {
+    "title": "Google Cloud Monitoring Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Google Cloud",
+      "Monitor",
+      "Consumer"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configures F5 Telemetry Streaming to send data to Google Cloud Monitoring.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Google_Cloud_Monitoring/google_cloud_monitoring.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Google_Cloud_Monitoring/google_cloud_monitoring.json"
+  },
+  {
+    "title": "Google Cloud Monitoring Telemetry Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Google Cloud",
+      "Monitor",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to Google Cloud Monitoring.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Google_Cloud_Monitoring/google_cloud_monitoring_sat.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Google_Cloud_Monitoring/google_cloud_monitoring_sat.json"
+  },
+  {
+    "title": "Graphite Telemetry Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Graphite",
+      "Consumer",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for sending telemetry data to a Graphite consumer using HTTPS.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Graphite/graphite.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Graphite/graphite.json"
+  },
+  {
+    "title": "Kafka Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "Kafka",
+      "Telemetry",
+      "Streaming",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to Kafka with various authentication methods.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Kafka/kafka.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Kafka/kafka.json"
+  },
+  {
+    "title": "OpenTelemetry Exporter Configuration",
+    "tags": [
+      "TS",
+      "OpenTelemetry",
+      "Exporter",
+      "Metrics",
+      "JSON",
+      "gRPC"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for exporting telemetry data using OpenTelemetry in various formats and security options.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/OpenTelemetry_Exporter/open_telemetry_exporter.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/OpenTelemetry_Exporter/open_telemetry_exporter.json"
+  },
+  {
+    "title": "Prometheus Pull Consumer Configuration",
+    "tags": [
+      "TS",
+      "Prometheus",
+      "Telemetry",
+      "System",
+      "Monitor"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for Prometheus to pull telemetry data using F5 Telemetry Streaming.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Prometheus/prometheus_pull_consumer.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Prometheus/prometheus_pull_consumer.json"
+  },
+  {
+    "title": "Default Pull Consumer Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "System",
+      "Pull Consumer"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for a default pull consumer with a system poller in F5 Telemetry Streaming.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Pull_Consumer/default_pull_consumer.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Pull_Consumer/default_pull_consumer.json"
+  },
+  {
+    "title": "Splunk Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Splunk",
+      "Consumer",
+      "Streaming"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to a Splunk consumer using HTTPS.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Splunk/splunk.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Splunk/splunk.json"
+  },
+  {
+    "title": "Splunk HTTP Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Splunk",
+      "Consumer",
+      "Data Streaming"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to a Splunk HTTP endpoint.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Splunk/splunk_http_agent.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Splunk/splunk_http_agent.json"
+  },
+  {
+    "title": "Splunk Legacy Telemetry Configuration",
+    "tags": [
+      "TS",
+      "Splunk",
+      "Telemetry",
+      "System",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to Splunk using legacy format.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Splunk/splunk_legacy.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Splunk/splunk_legacy.json"
+  },
+  {
+    "title": "Splunk Multi-Metric Telemetry Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Splunk",
+      "System",
+      "Metrics"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to Splunk using multi-metric format.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Splunk/splunk_multi_metric.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Splunk/splunk_multi_metric.json"
+  },
+  {
+    "title": "Splunk Proxy Configuration for Telemetry Streaming",
+    "tags": [
+      "TS",
+      "Splunk",
+      "Proxy",
+      "Telemetry",
+      "HTTPS"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to Splunk using a proxy.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Splunk/splunk_proxy.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Splunk/splunk_proxy.json"
+  },
+  {
+    "title": "Statsd Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Statistics",
+      "Consumer",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to a Statsd consumer using UDP.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/StatsD/statsd.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/StatsD/statsd.json"
+  },
+  {
+    "title": "Sumo Logic Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Logging",
+      "Consumer",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to Sumo Logic.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/Sumo_Logic/sumo_logic.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/Sumo_Logic/sumo_logic.json"
+  },
+  {
+    "title": "Default Consumer Telemetry Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Configuration",
+      "System",
+      "Consumer"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for enabling telemetry streaming with a default consumer and system poller.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/consumers/default_consumer.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/consumers/default_consumer.json"
+  },
+  {
+    "title": "Custom Tags Configuration for Telemetry Streaming",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Configuration",
+      "Tags",
+      "System",
+      "Listener"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration file for setting custom tags in F5 Telemetry Streaming systems and listeners.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/custom_tags.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/custom_tags.json"
+  },
+  {
+    "title": "F5 Telemetry System Poller Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "System",
+      "Configuration",
+      "Event Listener"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Telemetry Streaming with system polling and event listening.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/filter_system_poller.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/filter_system_poller.json"
+  },
+  {
+    "title": "iHealth Telemetry Configuration",
+    "tags": [
+      "TS",
+      "iHealth",
+      "Telemetry",
+      "Polling",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for iHealth telemetry pollers with various intervals and proxy settings.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/iHealth_Poller/ihealth_all.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/iHealth_Poller/ihealth_all.json"
+  },
+  {
+    "title": "iHealth Basic Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "iHealth",
+      "System",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Telemetry Streaming with iHealth and system polling.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/iHealth_Poller/ihealth_basic.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/iHealth_Poller/ihealth_basic.json"
+  },
+  {
+    "title": "Multiple Telemetry Consumers Configuration",
+    "tags": [
+      "TS",
+      "Azure Log Analytics",
+      "Splunk",
+      "Telemetry",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configures multiple telemetry consumers for Azure Log Analytics and Splunk.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/multiple_consumers.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/multiple_consumers.json"
+  },
+  {
+    "title": "Telemetry Streaming with Multiple Passphrases",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "HTTP",
+      "Consumer",
+      "Configuration"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Telemetry Streaming using multiple passphrases for secure communication.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/multiple_passphrases.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/multiple_passphrases.json"
+  },
+  {
+    "title": "Basic Namespace Configuration for Telemetry Streaming",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Configuration",
+      "Splunk",
+      "System",
+      "Listener"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configures a telemetry namespace with system polling and a Splunk consumer.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/namespaces/basic_namespace.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/namespaces/basic_namespace.json"
+  },
+  {
+    "title": "F5 Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "ElasticSearch",
+      "Prometheus",
+      "Debugging"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to ElasticSearch and Prometheus with debugging enabled.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/namespaces/default_and_custom_namespace.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/namespaces/default_and_custom_namespace.json"
+  },
+  {
+    "title": "Multiple Namespace Telemetry Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "ElasticSearch",
+      "Debug",
+      "System",
+      "Listener"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for streaming telemetry data to ElasticSearch using multiple namespaces with debug enabled.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/namespaces/multiple_namespaces.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/namespaces/multiple_namespaces.json"
+  },
+  {
+    "title": "F5 Telemetry Streaming Configuration",
+    "tags": [
+      "TS",
+      "Telemetry",
+      "Polling",
+      "Splunk",
+      "Consumer"
+    ],
+    "contentType": [
+      "TS"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Telemetry Streaming with push and pull consumers.",
+    "url": "https://github.com/F5Networks/f5-telemetry-streaming/tree/master/examples/declarations/push_and_pull_consumers.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-telemetry-streaming/master/examples/declarations/push_and_pull_consumers.json"
+  },
+  {
+    "title": "Advanced Route Definitions for Cloud Failover",
+    "tags": [
+      "CF",
+      "Cloud",
+      "Failover",
+      "Route",
+      "AWS"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for managing route failover in AWS using F5 Cloud Failover Extension.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/advancedRouteDefinitionsNames.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/advancedRouteDefinitionsNames.json"
+  },
+  {
+    "title": "Advanced Route Definitions for Cloud Failover",
+    "tags": [
+      "CF",
+      "AWS",
+      "Failover",
+      "Route",
+      "Configuration"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for AWS cloud failover with advanced routing definitions using scoping tags.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/advancedRouteDefinitionsTags.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/advancedRouteDefinitionsTags.json"
+  },
+  {
+    "title": "AWS Across AZ Failover Configuration",
+    "tags": [
+      "CF",
+      "AWS",
+      "Failover",
+      "ElasticIP",
+      "High Availability"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Cloud Failover Extension across AWS AZs with Elastic IPs and route failover.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/aws-across-az-1.13.0.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/aws-across-az-1.13.0.json"
+  },
+  {
+    "title": "AWS Across AZ Cloud Failover Configuration",
+    "tags": [
+      "CF",
+      "AWS",
+      "Failover",
+      "ElasticIP",
+      "Route",
+      "high availability"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for AWS Cloud Failover across availability zones using elastic IPs and route management.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/aws-across-az-1.7.0.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/aws-across-az-1.7.0.json"
+  },
+  {
+    "title": "AWS Across AZ Cloud Failover Configuration",
+    "tags": [
+      "CF",
+      "AWS",
+      "Failover",
+      "Cloud",
+      "High Availability"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for automated failover across AWS availability zones using F5 Cloud Failover Extension.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/aws-across-az.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/aws-across-az.json"
+  },
+  {
+    "title": "AWS S3 Server-Side Encryption with AWS Key",
+    "tags": [
+      "CF",
+      "AWS",
+      "Encryption",
+      "Failover",
+      "Cloud",
+      "Network"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Cloud Failover Extension with AWS S3 server-side encryption using AWS KMS.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/aws-s3-server-side-encryption-aws-key.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/aws-s3-server-side-encryption-aws-key.json"
+  },
+  {
+    "title": "AWS S3 Server-Side Encryption with Custom Key",
+    "tags": [
+      "CF",
+      "AWS",
+      "Encryption",
+      "Failover",
+      "S3"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for AWS S3 server-side encryption using a custom KMS key with F5 Cloud Failover Extension.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/aws-s3-server-side-encryption-custom-key.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/aws-s3-server-side-encryption-custom-key.json"
+  },
+  {
+    "title": "AWS Same AZ Cloud Failover Configuration v1.13.0",
+    "tags": [
+      "CF",
+      "AWS",
+      "Failover",
+      "Cloud",
+      "Configuration"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for enabling cloud failover in AWS within the same availability zone.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/aws-same-az-1.13.0.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/aws-same-az-1.13.0.json"
+  },
+  {
+    "title": "AWS Same AZ Cloud Failover Configuration",
+    "tags": [
+      "CF",
+      "AWS",
+      "Failover",
+      "Networking",
+      "Cloud"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for AWS cloud failover within the same availability zone using F5 Cloud Failover Extension.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/aws-same-az-1.7.0.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/aws-same-az-1.7.0.json"
+  },
+  {
+    "title": "AWS Same AZ Cloud Failover Configuration",
+    "tags": [
+      "CF",
+      "AWS",
+      "Cloud",
+      "Failover",
+      "Configuration",
+      "High Availability"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for AWS same availability zone cloud failover with specific logging and scoping tags.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/aws-same-az.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/aws-same-az.json"
+  },
+  {
+    "title": "AWS Cloud Failover Configuration",
+    "tags": [
+      "CF",
+      "AWS",
+      "Failover",
+      "Networking",
+      "Configuration"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for AWS cloud failover using F5 Cloud Failover Extension.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/awsFailoverAddressDefinitions.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/awsFailoverAddressDefinitions.json"
+  },
+  {
+    "title": "AWS Cloud Failover Configuration with Multiple Routing Tables",
+    "tags": [
+      "CF",
+      "AWS",
+      "Cloud",
+      "Failover",
+      "Route"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for AWS cloud failover with multiple routing tables and static next-hop addresses.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/awsMultipleRoutingTables.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/awsMultipleRoutingTables.json"
+  },
+  {
+    "title": "Azure Cloud Failover Configuration 1.7.0",
+    "tags": [
+      "CF",
+      "Azure",
+      "Failover",
+      "Network",
+      "Configuration"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Cloud Failover Extension on Azure environment with failover addresses and routes.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/azure-1.7.0.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/azure-1.7.0.json"
+  },
+  {
+    "title": "Azure Cloud Failover Configuration",
+    "tags": [
+      "CF",
+      "Azure",
+      "Failover",
+      "Cloud",
+      "Configuration"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Cloud Failover Extension on Azure environment.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/azure.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/azure.json"
+  },
+  {
+    "title": "Azure Cloud Failover Configuration",
+    "tags": [
+      "CF",
+      "Azure",
+      "Cloud",
+      "Failover",
+      "Networking"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for Azure cloud failover with address and route definitions.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/azureFailoverAddressDefinitions.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/azureFailoverAddressDefinitions.json"
+  },
+  {
+    "title": "Azure IPv6 Route Failover Configuration",
+    "tags": [
+      "CF",
+      "Azure",
+      "IPv6",
+      "Route",
+      "Failover"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for enabling IPv6 route failover in Azure using F5 Cloud Failover Extension.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/azureIpv6RouteFailover.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/azureIpv6RouteFailover.json"
+  },
+  {
+    "title": "Azure Multiple Routing Tables Configuration for Cloud Failover",
+    "tags": [
+      "CF",
+      "Azure",
+      "Route",
+      "Failover",
+      "Configuration",
+      "Networking"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for managing failover addresses and routes across multiple routing tables in Azure.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/azureMultipleRoutingTables.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/azureMultipleRoutingTables.json"
+  },
+  {
+    "title": "Azure Route Tables in Multiple Subscriptions Configuration",
+    "tags": [
+      "CF",
+      "Azure",
+      "Failover",
+      "Route",
+      "High Availability"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Cloud Failover Extension to manage route tables across multiple Azure subscriptions.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/azureRouteTablesInMutipleSubscriptions.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/azureRouteTablesInMutipleSubscriptions.json"
+  },
+  {
+    "title": "GCP Cloud Failover Configuration",
+    "tags": [
+      "CF",
+      "Google Cloud",
+      "Failover",
+      "Networking",
+      "Cloud"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for automatic failover in Google Cloud using F5 Cloud Failover Extension.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/gcp-1.7.0.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/gcp-1.7.0.json"
+  },
+  {
+    "title": "GCP Cloud Failover Route Configuration",
+    "tags": [
+      "CF",
+      "Cloud_Failover",
+      "Google Cloud",
+      "Route",
+      "high availability"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Cloud Failover Extension to manage failover routes in GCP.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/gcp-route-tag.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/gcp-route-tag.json"
+  },
+  {
+    "title": "GCP Cloud Failover Configuration",
+    "tags": [
+      "CF",
+      "Cloud",
+      "Failover",
+      "Google Cloud",
+      "Configuration"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for enabling cloud failover on GCP with specific scoping tags and routes.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/gcp.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/gcp.json"
+  },
+  {
+    "title": "GCP Advanced Route Definitions for Cloud Failover",
+    "tags": [
+      "CF",
+      "Google Cloud",
+      "Cloud_Failover",
+      "Route",
+      "High Availability"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for advanced route definitions in GCP using F5 Cloud Failover Extension.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/gcpAdvancedRouteDefinitions.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/gcpAdvancedRouteDefinitions.json"
+  },
+  {
+    "title": "GCP Failover Configuration",
+    "tags": [
+      "CF",
+      "Cloud",
+      "Failover",
+      "Google Cloud",
+      "Networking"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for managing failover addresses and routes in GCP using F5 Cloud Failover Extension.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/gcpFailoverAddressDefinitions.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/gcpFailoverAddressDefinitions.json"
+  },
+  {
+    "title": "GCP Multiple Routing Group Config for Cloud Failover",
+    "tags": [
+      "CF",
+      "Google Cloud",
+      "Route",
+      "Failover",
+      "Configuration"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for GCP Cloud Failover with multiple routing group definitions.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/gcpMultipleRoutingGroupDefinitons.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/gcpMultipleRoutingGroupDefinitons.json"
+  },
+  {
+    "title": "IPv6 Route Failover Configuration for AWS",
+    "tags": [
+      "CF",
+      "Cloud",
+      "Failover",
+      "IPv6",
+      "AWS",
+      "Route"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Cloud Failover Extension enabling IPv6 route failover in AWS.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/ipv6RouteFailover.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/ipv6RouteFailover.json"
+  },
+  {
+    "title": "AWS Cloud Failover with Multiple Routing Tables",
+    "tags": [
+      "CF",
+      "AWS",
+      "Failover",
+      "Route",
+      "Configuration"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for AWS cloud failover with multiple routing tables using static next hop addresses.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/multipleRoutingTables.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/multipleRoutingTables.json"
+  },
+  {
+    "title": "AWS Cloud Failover Configuration",
+    "tags": [
+      "CF",
+      "AWS",
+      "Failover",
+      "Route",
+      "Addresses"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configures AWS cloud failover with specific address and route settings.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/quickstart.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/quickstart.json"
+  },
+  {
+    "title": "AWS Cloud Failover Configuration with Retry",
+    "tags": [
+      "CF",
+      "AWS",
+      "Failover",
+      "Retry",
+      "Networking"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for AWS cloud failover with retry mechanism enabled.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/retryFailover.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/retryFailover.json"
+  },
+  {
+    "title": "AWS Cloud Failover with Route Tagging",
+    "tags": [
+      "CF",
+      "AWS",
+      "Failover",
+      "Route",
+      "Networking"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for AWS cloud failover using route tags to manage failover routes.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/routeFailoverUsesRouteTags.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/routeFailoverUsesRouteTags.json"
+  },
+  {
+    "title": "F5 Cloud Failover Extension Log Level Configuration",
+    "tags": [
+      "CF",
+      "AWS",
+      "Cloud",
+      "Failover",
+      "Logging"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configures F5 Cloud Failover Extension with a log level set to 'silly' for AWS environment.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/settingLogLevel.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/settingLogLevel.json"
+  },
+  {
+    "title": "Azure Cloud Failover Configuration",
+    "tags": [
+      "CF",
+      "Azure",
+      "Cloud",
+      "Failover",
+      "Configuration"
+    ],
+    "contentType": [
+      "CF"
+    ],
+    "isFeatured": false,
+    "description": "Configuration for F5 Cloud Failover Extension using Azure storage account by scoping name.",
+    "url": "https://github.com/F5Networks/f5-cloud-failover-extension/tree/master/examples/declarations/storageAccountbyScopingName.json",
+    "downloadUrl": "https://raw.githubusercontent.com/F5Networks/f5-cloud-failover-extension/master/examples/declarations/storageAccountbyScopingName.json"
+  },
+  {
+    "title": "Minimal APM Configuration",
+    "tags": [
+      "APM",
+      "Access Policy",
+      "Session Management"
+    ],
+    "contentType": [
+      "APM"
+    ],
+    "isFeatured": false,
+    "description": "A minimal configuration for an F5 Access Policy Manager with session-based policy.",
+    "url": "https://github.com/f5devcentral/vscode-f5-apm/tree/main/examples/AP.minimal.json",
+    "downloadUrl": "https://raw.githubusercontent.com/f5devcentral/vscode-f5-apm/main/examples/AP.minimal.json"
+  }
+];

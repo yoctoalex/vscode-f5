@@ -457,7 +457,10 @@ export default function devicesCore(context: ExtensionContext, f5OutputChannel: 
             // await window.showWarningMessage('Are you sure?', 'Yes', 'Cancel')
             await window.showQuickPick(qpOptions, { title: 'Are you sure?' })
                 .then(resp => {
-                    if (resp === undefined || JSON.stringify(resp).includes('Cancel' || 'No')) {
+                    if (
+                        resp === undefined ||
+                        (JSON.stringify(resp).includes('Cancel') || JSON.stringify(resp).includes('No'))
+                    ) {
                         prompt = false;
                     } else {
                         prompt = true;
@@ -549,7 +552,11 @@ export default function devicesCore(context: ExtensionContext, f5OutputChannel: 
             // await window.showWarningMessage('Are you sure?', 'Yes', 'Cancel')
             await window.showQuickPick(qpOptions, { title: 'Are you sure?' })
                 .then(resp => {
-                    if (resp === undefined || JSON.stringify(resp).includes('Cancel' || 'No')) {
+                    if (
+                        resp === undefined ||
+                        JSON.stringify(resp).includes('Cancel') ||
+                        JSON.stringify(resp).includes('No')
+                    ) {
                         prompt = false;
                     } else {
                         prompt = true;

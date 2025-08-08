@@ -1,0 +1,310 @@
+.demoGuidesContainer {
+  padding: 20px;
+  background-color: var(--vscode-editor-background);
+  color: var(--vscode-editor-foreground);
+}
+
+.demoGuidesFilters {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.demoGuidesSearchInput {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #d0d7de;
+  border-radius: 2px;
+  width: 200px;
+  box-sizing: border-box;
+  background-color: var(--vscode-input-background);
+  color: var(--vscode-input-foreground);
+
+  &:focus {
+    outline: none;
+    border-color: var(--vscode-focusBorder, #0969da);
+    box-shadow: 0 0 0 1px var(--vscode-focusBorder, #0969da);
+  }
+
+  &::placeholder {
+    color: var(--vscode-input-placeholderForeground);
+  }
+}
+
+.demoGuidesDropdownWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.demoGuidesDropdownHeader {
+  border: 1px solid #d0d7de;
+  padding: 6px 10px;
+  cursor: pointer;
+  user-select: none;
+  background-color: var(--vscode-input-background);
+  color: var(--vscode-input-foreground);
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: var(--vscode-input-background);
+    border-color: var(--vscode-focusBorder, #0969da);
+  }
+
+  span:first-child {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 8px;
+  }
+
+  span:last-child {
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+}
+
+.demoGuidesDropdownMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--vscode-input-background);
+  color: var(--vscode-input-foreground);
+  border: 1px solid #d0d7de;
+  border-top: none;
+  padding: 4px 0;
+  z-index: 10;
+  width: 200px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  border-radius: 0 0 2px 2px;
+  margin: 0;
+
+  &.demoGuidesOpen {
+    display: block;
+  }
+}
+
+.demoGuidesCheckboxOption {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  color: var(--vscode-input-foreground);
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: var(--vscode-list-hoverBackground, rgba(0, 0, 0, 0.04));
+  }
+
+  input {
+    margin: 0 8px 0 0;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+}
+
+.demoGuidesSection {
+  margin-top: 30px;
+
+  &.demoGuidesFeatured {
+    background-color: var(--vscode-editor-inactiveSelectionBackground);
+    border: 1px solid var(--vscode-panel-border);
+    border-left: 4px solid var(--vscode-panelTitle-activeForeground);
+    border-radius: 3px;
+    padding: 20px;
+    margin: 30px 0;
+
+    h3 {
+      color: var(--vscode-panelTitle-activeForeground);
+      margin-top: 0;
+      font-weight: 600;
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+  }
+
+  h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.demoGuidesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.demoGuidesCard {
+  background: white;
+  border: 1px solid #d1d5da;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border-color: #0969da;
+  }
+}
+
+.demoGuidesCardImage {
+  height: 160px;
+  overflow: hidden;
+  background: #f6f8fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    transition: all 0.2s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.demoGuidesCardIcon {
+  width: 64px !important;
+  height: auto !important;
+  object-fit: contain;
+  object-position: center;
+}
+
+.demoGuidesCardPlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-size: 48px;
+  opacity: 0.3;
+  background-color: var(--vscode-editor-inactiveSelectionBackground, #f6f8fa);
+  color: var(--vscode-descriptionForeground, #656d76);
+}
+
+.demoGuidesCardContent {
+  padding: 20px;
+}
+
+.demoGuidesCardTitle {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #24292f;
+}
+
+.demoGuidesDescription {
+  margin: 12px 0 0 0;
+
+  font-size: 14px;
+  line-height: 1.5;
+  color: #656d76;
+}
+
+.demoGuidesTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.demoGuidesTag {
+  display: inline-block;
+  background-color: var(--vscode-badge-background);
+  color: var(--vscode-badge-foreground);
+  border-radius: 2px;
+  padding: 2px 8px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.demoGuidesActions {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.demoGuidesCreateBtn {
+  flex: 1;
+  padding: 8px 16px;
+  background-color: #0969da;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: #0860ca;
+  }
+}
+
+.demoGuidesViewBtn {
+  flex: 1;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #0969da;
+  border: 1px solid #d1d5da;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: #f6f8fa;
+    border-color: #0969da;
+  }
+}
+
+.demoGuidesNoResults {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--vscode-descriptionForeground);
+}
+
+.demoGuidesHighlight {
+  background-color: var(--vscode-editor-selectionHighlightBackground, #ffff00);
+  color: var(--vscode-editor-foreground);
+  padding: 0;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .demoGuidesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .demoGuidesFilters {
+    flex-direction: column;
+  }
+
+  .demoGuidesDropdownWrapper {
+    min-width: auto;
+  }
+}

@@ -21,6 +21,7 @@ import * as os from 'os';
 import { ExampleDecsProvider } from './treeViewsProviders/githubDecExamples';
 import { FastTemplatesTreeProvider } from './treeViewsProviders/fastTreeProvider';
 import { QuickStartProvider, registerQuickStartProvider } from './treeViewsProviders/quickStartProvider';
+//import { WebviewPanel } from './controls/webviewPanel';
 
 
 import * as utils from './utils/utils';

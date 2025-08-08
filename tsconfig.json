@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"target": "es6",
+		"target": "ES2018",
 		"module": "commonjs",
 		"allowJs": false,
 		"experimentalDecorators": true,
@@ -24,5 +24,9 @@
 	},
 	"include": [
         "src/**/*"
-    ]
+    ],
+	"exclude": ["src/controls"],
+	"ts-node": {
+    "files": true
+  }
 }

@@ -2,6 +2,36 @@
     "as3": {
         "releases": [
             {
+                "version": "v3.54.2",
+                "id": 234833190,
+                "assets": [
+                    {
+                        "name": "as3-3.54.2-4.examples.collection.json",
+                        "id": 275902193,
+                        "size": 860061,
+                        "browser_download_url": "https://github.com/F5Networks/f5-appsvcs-extension/releases/download/v3.54.2/as3-3.54.2-4.examples.collection.json"
+                    },
+                    {
+                        "name": "as3-3.54.2-4.examples.collection.json.sha256",
+                        "id": 275902192,
+                        "size": 104,
+                        "browser_download_url": "https://github.com/F5Networks/f5-appsvcs-extension/releases/download/v3.54.2/as3-3.54.2-4.examples.collection.json.sha256"
+                    },
+                    {
+                        "name": "f5-appsvcs-3.54.2-4.noarch.rpm",
+                        "id": 275902194,
+                        "size": 26121084,
+                        "browser_download_url": "https://github.com/F5Networks/f5-appsvcs-extension/releases/download/v3.54.2/f5-appsvcs-3.54.2-4.noarch.rpm"
+                    },
+                    {
+                        "name": "f5-appsvcs-3.54.2-4.noarch.rpm.sha256",
+                        "id": 275902195,
+                        "size": 97,
+                        "browser_download_url": "https://github.com/F5Networks/f5-appsvcs-extension/releases/download/v3.54.2/f5-appsvcs-3.54.2-4.noarch.rpm.sha256"
+                    }
+                ]
+            },
+            {
                 "version": "v3.54.1",
                 "id": 204352563,
                 "assets": [
@@ -912,39 +942,9 @@
                         "browser_download_url": "https://github.com/F5Networks/f5-appsvcs-extension/releases/download/v3.31.0/f5-appsvcs-3.31.0-6.noarch.rpm.sha256"
                     }
                 ]
-            },
-            {
-                "version": "v3.30.0",
-                "id": 47450885,
-                "assets": [
-                    {
-                        "name": "as3-3.30.0-5.examples.collection.json",
-                        "id": 41912213,
-                        "size": 624539,
-                        "browser_download_url": "https://github.com/F5Networks/f5-appsvcs-extension/releases/download/v3.30.0/as3-3.30.0-5.examples.collection.json"
-                    },
-                    {
-                        "name": "as3-3.30.0-5.examples.collection.json.sha256",
-                        "id": 41912212,
-                        "size": 104,
-                        "browser_download_url": "https://github.com/F5Networks/f5-appsvcs-extension/releases/download/v3.30.0/as3-3.30.0-5.examples.collection.json.sha256"
-                    },
-                    {
-                        "name": "f5-appsvcs-3.30.0-5.noarch.rpm",
-                        "id": 41912218,
-                        "size": 20629761,
-                        "browser_download_url": "https://github.com/F5Networks/f5-appsvcs-extension/releases/download/v3.30.0/f5-appsvcs-3.30.0-5.noarch.rpm"
-                    },
-                    {
-                        "name": "f5-appsvcs-3.30.0-5.noarch.rpm.sha256",
-                        "id": 41912219,
-                        "size": 97,
-                        "browser_download_url": "https://github.com/F5Networks/f5-appsvcs-extension/releases/download/v3.30.0/f5-appsvcs-3.30.0-5.noarch.rpm.sha256"
-                    }
-                ]
             }
         ],
-        "latest": "v3.54.1"
+        "latest": "v3.54.2"
     },
     "fast": {
         "releases": [
@@ -2087,6 +2087,24 @@
     "ts": {
         "releases": [
             {
+                "version": "v1.38.0",
+                "id": 234363439,
+                "assets": [
+                    {
+                        "name": "f5-telemetry-1.38.0-1.noarch.rpm",
+                        "id": 275353326,
+                        "size": 21343858,
+                        "browser_download_url": "https://github.com/F5Networks/f5-telemetry-streaming/releases/download/v1.38.0/f5-telemetry-1.38.0-1.noarch.rpm"
+                    },
+                    {
+                        "name": "f5-telemetry-1.38.0-1.noarch.rpm.sha256",
+                        "id": 275354246,
+                        "size": 99,
+                        "browser_download_url": "https://github.com/F5Networks/f5-telemetry-streaming/releases/download/v1.38.0/f5-telemetry-1.38.0-1.noarch.rpm.sha256"
+                    }
+                ]
+            },
+            {
                 "version": "v1.37.0",
                 "id": 181782590,
                 "assets": [
@@ -2607,27 +2625,9 @@
                         "browser_download_url": "https://github.com/F5Networks/f5-telemetry-streaming/releases/download/v1.11.0/f5-telemetry-1.11.0-1.noarch.rpm.sha256"
                     }
                 ]
-            },
-            {
-                "version": "v1.10.0",
-                "id": 24369270,
-                "assets": [
-                    {
-                        "name": "f5-telemetry-1.10.0-2.noarch.rpm",
-                        "id": 18591767,
-                        "size": 9988331,
-                        "browser_download_url": "https://github.com/F5Networks/f5-telemetry-streaming/releases/download/v1.10.0/f5-telemetry-1.10.0-2.noarch.rpm"
-                    },
-                    {
-                        "name": "f5-telemetry-1.10.0-2.noarch.rpm.sha256",
-                        "id": 18591774,
-                        "size": 99,
-                        "browser_download_url": "https://github.com/F5Networks/f5-telemetry-streaming/releases/download/v1.10.0/f5-telemetry-1.10.0-2.noarch.rpm.sha256"
-                    }
-                ]
             }
         ],
-        "latest": "v1.37.0"
+        "latest": "v1.38.0"
     },
     "do": {
         "releases": [
@@ -3528,6 +3528,6 @@
         ],
         "latest": "v1.46.0"
     },
-    "lastCheckDate": "2025-07-16T09:43:43.210Z",
-    "lastUpdatedDate": "2025-07-16T09:43:43.210Z"
+    "lastCheckDate": "2025-08-06T14:14:15.268Z",
+    "lastUpdatedDate": "2025-08-06T14:14:15.268Z"
 }

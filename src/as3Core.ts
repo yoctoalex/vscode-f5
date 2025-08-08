@@ -88,7 +88,11 @@ export class As3Core {
                 // await window.showWarningMessage('Are you sure?', 'Yes', 'Cancel')
                 await window.showQuickPick(qpOptions, { title: 'Are you sure?' })
                     .then(resp => {
-                        if (resp === undefined || JSON.stringify(resp).includes('Cancel' || 'No')) {
+                        if (
+                            resp === undefined ||
+                            JSON.stringify(resp).includes('Cancel') ||
+                            JSON.stringify(resp).includes('No')
+                        ) {
                             prompt = false;
                         } else {
                             prompt = true;
@@ -167,7 +171,11 @@ export class As3Core {
                 // await window.showWarningMessage('Are you sure?', 'Yes', 'Cancel')
                 await window.showQuickPick(qpOptions, { title: 'Are you sure?' })
                     .then(resp => {
-                        if (resp === undefined || JSON.stringify(resp).includes('Cancel' || 'No')) {
+                        if (
+                            resp === undefined ||
+                            JSON.stringify(resp).includes('Cancel') ||
+                            JSON.stringify(resp).includes('No')
+                        ) {
                             prompt = false;
                         } else {
                             prompt = true;

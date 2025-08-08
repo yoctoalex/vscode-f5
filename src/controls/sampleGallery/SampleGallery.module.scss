@@ -1,0 +1,324 @@
+.sampleGalleryContainer {
+  padding: 20px;
+  background-color: var(--vscode-editor-background);
+  color: var(--vscode-editor-foreground);
+}
+
+.sampleGalleryFilters {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.sampleGallerySearchInput {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #d0d7de;
+  border-radius: 2px;
+  width: 200px;
+  box-sizing: border-box;
+  background-color: var(--vscode-input-background);
+  color: var(--vscode-input-foreground);
+  
+  &:focus {
+    outline: none;
+    border-color: var(--vscode-focusBorder, #0969da);
+    box-shadow: 0 0 0 1px var(--vscode-focusBorder, #0969da);
+  }
+  
+  &::placeholder {
+    color: var(--vscode-input-placeholderForeground);
+  }
+}
+
+.sampleGallerySection {
+  margin-top: 30px;
+  
+  &.sampleGalleryFeatured {
+    background-color: var(--vscode-editor-inactiveSelectionBackground);
+    border: 1px solid var(--vscode-panel-border);
+    border-left: 4px solid var(--vscode-panelTitle-activeForeground);
+    border-radius: 3px;
+    padding: 20px;
+    margin: 30px 0;
+    
+    h3 {
+      color: var(--vscode-panelTitle-activeForeground);
+      margin-top: 0;
+      font-weight: 600;
+      font-size: 1.1em;
+    }
+  }
+}
+
+.sampleGallerySampleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; // Changed from flex-start to center
+  padding: 16px 0;
+  border-bottom: 1px solid var(--vscode-panel-border);
+
+  .sampleGalleryFeatured & {
+    border-bottom-color: var(--vscode-panel-border);
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.sampleGalleryContent {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.sampleGalleryFirstLine {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  
+  strong {
+    margin-right: 16px;
+    font-size: 1.05em;
+    color: var(--vscode-editor-foreground);
+  }
+}
+
+.sampleGalleryTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.sampleGalleryTag {
+  display: inline-block;
+  background-color: var(--vscode-badge-background);
+  color: var(--vscode-badge-foreground);
+  border-radius: 2px;
+  padding: 2px 8px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.sampleGalleryDescription {
+  margin: 0;
+  color: var(--vscode-descriptionForeground);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.sampleGalleryActions {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+  align-items: center; // This ensures buttons are aligned in the middle of the actions container
+
+  button {
+    background-color: var(--vscode-button-background);
+    color: var(--vscode-button-foreground);
+    border: 1px solid var(--vscode-button-border, transparent);
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background-color 0.2s ease;
+    font-size: 13px;
+    min-width: 100px;
+    height: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+      background-color: var(--vscode-button-hoverBackground);
+    }
+  }
+
+  a {
+    padding: 8px 12px;
+    background-color: var(--vscode-button-secondaryBackground);
+    color: var(--vscode-button-secondaryForeground);
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background-color 0.2s ease;
+    font-size: 13px;
+    border: 1px solid var(--vscode-button-border, transparent);
+    min-width: 100px;
+    height: 32px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+      background-color: var(--vscode-button-secondaryHoverBackground);
+    }
+  }
+}
+
+.sampleGalleryDropdownWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.sampleGalleryDropdownHeader {
+  border: 1px solid #d0d7de;
+  padding: 6px 10px;
+  cursor: pointer;
+  user-select: none;
+  background-color: var(--vscode-input-background);
+  color: var(--vscode-input-foreground);
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background-color: var(--vscode-input-background);
+    border-color: var(--vscode-focusBorder, #0969da);
+  }
+  
+  span:first-child {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 8px;
+  }
+  
+  span:last-child {
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+}
+
+.sampleGalleryDropdownMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--vscode-input-background);
+  color: var(--vscode-input-foreground);
+  border: 1px solid #d0d7de;
+  border-top: none;
+  padding: 8px;
+  z-index: 10;
+  width: 200px; // Back to original width for type dropdown
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  border-radius: 0 0 2px 2px;
+  margin: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sampleGalleryDropdownMenu.sampleGalleryOpen {
+  display: block;
+}
+
+// Special wider dropdown for tags only
+.sampleGalleryDropdownMenu:has(.sampleGalleryTagsGrid) {
+  width: 480px; // Wider width only for tags dropdown
+  right: 0; // Align to right edge to prevent going off-screen
+}
+
+// New container for the column layout (tags only)
+.sampleGalleryTagsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px 8px;
+  width: 100%;
+}
+
+.sampleGalleryCheckboxOption {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 4px 6px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  color: var(--vscode-input-foreground);
+  white-space: nowrap;
+  border-radius: 2px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  
+  &:hover {
+    background-color: var(--vscode-list-hoverBackground, rgba(0, 0, 0, 0.04));
+  }
+  
+  input {
+    margin: 0 4px 0 0;
+    cursor: pointer;
+    flex-shrink: 0;
+    transform: scale(0.9);
+  }
+  
+  // Ensure text doesn't overflow
+  span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+// Media queries only affect tags dropdown
+@media (max-width: 1000px) {
+  .sampleGalleryDropdownMenu:has(.sampleGalleryTagsGrid) {
+    width: 360px;
+    right: 0;
+  }
+  
+  .sampleGalleryTagsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .sampleGalleryDropdownMenu:has(.sampleGalleryTagsGrid) {
+    width: 280px;
+    left: auto;
+    right: 0;
+  }
+  
+  .sampleGalleryTagsGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .sampleGalleryCheckboxOption {
+    font-size: 13px;
+    padding: 6px 8px;
+  }
+}
+
+// Keep dropdown wrapper at original size
+.sampleGalleryDropdownWrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 200px;
+}
+
+.sampleGalleryNoResults {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--vscode-descriptionForeground);
+}
+
+.sampleGalleryHighlight {
+  background-color: var(--vscode-editor-selectionHighlightBackground, #ffff00);
+  color: var(--vscode-editor-foreground);
+  padding: 0;
+  border-radius: 2px;
+}

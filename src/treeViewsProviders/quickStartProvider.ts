@@ -1,6 +1,10 @@
 let currentPanel: vscode.WebviewPanel | undefined;
 import * as vscode from 'vscode';
 
+import { WebviewPanel } from '../controls/webviewPanel';
+import { PanelType } from '../controls/PanelType';
+
+
 export class QuickStartProvider implements vscode.WebviewViewProvider {
   public static readonly viewType = 'quickStart';
 
@@ -32,76 +36,122 @@ export class QuickStartProvider implements vscode.WebviewViewProvider {
       <head>
       <meta charset="UTF-8">
       <style>
-        body {
-        font-family: sans-serif;
-        padding: 20px;
-        background-color: #f3f3f3;
-        color: #333;
-        }
+body {
+  font-family: var(--vscode-font-family, sans-serif);
+  padding: 0 20px 0 20px;
+  background-color: var(--vscode-sideBar-background, #252526);
+  color: var(--vscode-editor-foreground, #d4d4d4);
+}
 
-        h2 {
-        font-size: 16px;
-        color: #0067b8;
-        margin-bottom: 10px;
-        }
+h2 {
+  font-size: 16px;
+  color: var(--vscode-textLink-foreground, #3794ff);
+  margin-bottom: 10px;
+}
 
-        p {
-        margin: 16px 0;
-        }
+p {
+  margin: 0;
+}
 
-        button {
-        display: block;
-        width: 100%;
-        background-color: #0067b8;
-        color: white;
-        border: none;
-        padding: 10px;
-        margin: 10px 0;
-        border-radius: 4px;
-        font-size: 14px;
-        cursor: pointer;
-        }
+.section {
+  margin-top: 20px;
+}
 
-        button:hover {
-        background-color: #005ba1;
-        }
+.section h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
 
-        .link {
-        color: #0067b8;
-        text-decoration: none;
-        }
+/* ── BUTTON CONTAINER ── */
+.button-container {
+  /* make it positionable and animatable */
+  position: relative;
+  width: 100%;
+  max-width: 300px;
 
-        .link:hover {
-        text-decoration: underline;
-        }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;      /* start centered */
+  
+  /* center via left/transform */
+  left: 50%;
+  transform: translateX(-50%);
+  
+  /* animate slide */
+  transition: left 0.2s ease, transform 0.2s ease;
+  background-color: transparent;
+}
 
-        .section {
-        margin-top: 20px;
-        }
+@media (min-width: 641px) {
+  .button-container {
+    /* slide back to left */
+    left: 0;
+    transform: none;
+    justify-content: flex-start;  /* also align items left */
+  }
+}
 
-        .section h3 {
-        font-size: 14px;
-        margin-bottom: 8px;
-        }
+/* ── BUTTONS ── */
+button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 0.4em 1em;
+  
+  font-size: var(--vscode-font-size, 13px);
+  line-height: var(--vscode-button-height, 1.25);
+  font-family: inherit;
+  
+  background-color: var(--vscode-button-background, #0e639c);
+  color:            var(--vscode-button-foreground, #ffffff);
+  border: none;
+  border-radius: var(--vscode-editor-widget-border-radius, 2px);
+  cursor: pointer;
+  
+  transition: background-color .0.2s ease;
+}
+
+button:hover {
+  background-color: var(--vscode-button-hoverBackground, #1177bb);
+}
+
+button:focus {
+  outline: 2px solid var(--vscode-focusBorder, #007fd4);
+  outline-offset: 1px;
+}
+
+/* ── LINKS ── */
+.link {
+  color: var(--vscode-textLink-foreground, #3794ff);
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: var(--vscode-textLink-activeForeground, #62aeee);
+}
       </style>
       </head>
       <body>
       <h2>THE F5 EXTENSION</h2>
 
-      <p>Welcome to the F5 Extension!</p>
-      <p>Get started with a guided tutorial for F5 development</p>
+      <p>Get started with BIG-IP automation using guides and video tutorials</p>
 
-      <button onclick="runCommand('f5.build')">Start building with an example</button>
+      <div class="button-container">
+      <button onclick="runCommand('f5.guides')">Browse Guides and Tutorials</button>
+      </div>
 
-      <p>Or jump right into the app development with app templates or samples</p>
+      <p>Explore code samples to build and deploy directly from VS Code</p>
 
-      <button onclick="runCommand('f5.samples')">View Samples</button>
+      <div class="button-container">
+      <button onclick="runCommand('f5.samples')">Explore Code Samples</button>
+      </div>
 
       <script nonce="${nonce}">
-        const vscode = acquireVsCodeApi();
-        function runCommand(cmd) {
+      const vscode = acquireVsCodeApi();
+      function runCommand(cmd) {
         vscode.postMessage({ command: cmd });
-        }
+      }
       </script>
       </body>
       </html>
@@ -129,128 +179,41 @@ export function registerQuickStartProvider(context: vscode.ExtensionContext) {
 
   context.subscriptions.push(
     vscode.commands.registerCommand('f5.samples', () => {
-      if (currentPanel) {
-        currentPanel.reveal(vscode.ViewColumn.One); // просто фокусируем
-        return;
-      }
-
-      currentPanel = vscode.window.createWebviewPanel(
-        'samplesWebview',
-        'Samples',
-        vscode.ViewColumn.One,
-        { enableScripts: true }
+      WebviewPanel.createOrShow(
+        PanelType.SampleGallery,
+        context,
       );
-
-      currentPanel.webview.html = getWebviewContent();
-
-      currentPanel.onDidDispose(() => {
-        currentPanel = undefined;
-      }, null, context.subscriptions);
-    })
+    }),
   );
-}
 
-function getWebviewContent(): string {
-  return `
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <style>
-        body {
-          font-family: sans-serif;
-          padding: 20px;
-        }
+  context.subscriptions.push(
+    vscode.commands.registerCommand('f5.guides', () => {
+      WebviewPanel.createOrShow(
+        PanelType.DemoGuides,
+        context,
+      );
+    }),
+  );
 
-        .filters {
-          display: flex;
-          gap: 10px;
-          margin-bottom: 20px;
-        }
+  // context.subscriptions.push(
+  //   vscode.commands.registerCommand('f5.samples', () => {
+  //     if (currentPanel) {
+  //       currentPanel.reveal(vscode.ViewColumn.One); // просто фокусируем
+  //       return;
+  //     }
 
-        select, input {
-          padding: 6px;
-          font-size: 14px;
-        }
+  //     currentPanel = vscode.window.createWebviewPanel(
+  //       'samplesWebview',
+  //       'Samples',
+  //       vscode.ViewColumn.One,
+  //       { enableScripts: true }
+  //     );
 
-        .card {
-          border: 1px solid #ccc;
-          border-radius: 8px;
-          padding: 16px;
-          margin-bottom: 12px;
-        }
+  //     currentPanel.webview.html = getWebviewContent();
 
-        .tag {
-          display: inline-block;
-          background-color: #eee;
-          border-radius: 4px;
-          padding: 2px 6px;
-          margin-right: 5px;
-          font-size: 12px;
-        }
-
-        h2 {
-          margin-top: 0;
-        }
-      </style>
-      <title>F5 BIG-IP Samples Gallery</title>
-    </head>
-    <body>
-      <h1>F5 BIG-IP Sample Gallery</h1>
-
-      <div class="filters">
-        <input type="text" placeholder="Search samples..." />
-        <select>
-          <option selected disabled>Module</option>
-          <option>LTM</option>
-          <option>ASM</option>
-          <option>DNS</option>
-          <option>AFM</option>
-        </select>
-        <select>
-          <option selected disabled>Language</option>
-          <option>iRules TCL</option>
-          <option>AS3 JSON</option>
-          <option>Python</option>
-        </select>
-        <select>
-          <option selected disabled>Technology</option>
-          <option>Automation</option>
-          <option>REST API</option>
-          <option>Declarative Onboarding</option>
-        </select>
-      </div>
-
-      <div class="card">
-        <h2>iRules: Redirect HTTP to HTTPS</h2>
-        <div>
-          <span class="tag">LTM</span>
-          <span class="tag">iRules TCL</span>
-        </div>
-        <p>Sample iRule to redirect all HTTP traffic to HTTPS on BIG-IP LTM.</p>
-      </div>
-
-      <div class="card">
-        <h2>AS3: Basic Virtual Server</h2>
-        <div>
-          <span class="tag">LTM</span>
-          <span class="tag">AS3 JSON</span>
-          <span class="tag">Automation</span>
-        </div>
-        <p>AS3 declaration for a simple virtual server configuration.</p>
-      </div>
-
-      <div class="card">
-        <h2>Python: REST API Pool Member Status</h2>
-        <div>
-          <span class="tag">LTM</span>
-          <span class="tag">Python</span>
-          <span class="tag">REST API</span>
-        </div>
-        <p>Python script to query BIG-IP pool member status using REST API.</p>
-      </div>
-    </body>
-    </html>
-  `;
+  //     currentPanel.onDidDispose(() => {
+  //       currentPanel = undefined;
+  //     }, null, context.subscriptions);
+  //   })
+  // );
 }
