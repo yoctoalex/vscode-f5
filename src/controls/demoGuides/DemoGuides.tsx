@@ -2,6 +2,12 @@ import styles from "./DemoGuides.module.scss";
 import * as React from "react";
 import { DemoGuidesData } from "./DemoGuidesData";
 
+import youtubeIcon from "../../../images/icons/youtube.svg";
+import githubIcon from "../../../images/icons/github-mark.svg";
+import f5Icon from "../../../images/icons/f5.svg";
+import documentationIcon from "../../../images/icons/documentation.svg";
+import linkIcon from "../../../images/icons/link.svg";
+
 // Declare vscode global
 declare const vscode: any;
 
@@ -122,6 +128,28 @@ export default class DemoGuides extends React.Component<{}, State> {
       img.style.display = 'none';
       placeholder.style.display = 'flex';
     }
+  };
+
+  // Helper function to get content type label information
+  getContentTypeInfo = (contentType?: string[]) => {
+    if (!contentType || contentType.length === 0) return null;
+    
+    const type = contentType[0];
+    
+    if (type === 'Youtube Video') {
+      return { icon: youtubeIcon, label: 'Video' };
+    }
+    if (type === 'GitHub Guide' || type === 'GitHub') {
+      return { icon: githubIcon, label: 'GitHub' };
+    }
+    if (type === 'Documentation') {
+      return { icon: documentationIcon, label: 'Documentation' };
+    }
+    if (type === 'Devcentral Article') {
+      return { icon: f5Icon, label: 'F5 Devcentral' };
+    }
+    // Fallback generic external resource
+    return { icon: linkIcon, label: 'Link' };
   };
 
   public render() {
@@ -267,6 +295,20 @@ export default class DemoGuides extends React.Component<{}, State> {
                     <div className={styles.demoGuidesCardPlaceholder} style={{ display: (sample.image || sample.icon) ? 'none' : 'flex' }}>
                       <span>📄</span>
                     </div>
+                    {this.getContentTypeInfo(sample.contentType) && (
+                      <div className={styles.demoGuidesContentTypeLabel}>
+                        <img 
+                          src={this.getContentTypeInfo(sample.contentType)!.icon} 
+                          alt={this.getContentTypeInfo(sample.contentType)!.label}
+                          className={styles.demoGuidesContentTypeIcon}
+                        />
+                        <div className={styles.demoGuidesContentTypeInfo}>
+                          <span className={styles.demoGuidesContentTypeTitle}>
+                            {this.getContentTypeInfo(sample.contentType)!.label}
+                          </span>
+                        </div>
+                      </div>
+                    )}
                   </div>
                   <div className={styles.demoGuidesCardContent}>
                     <h4 className={styles.demoGuidesCardTitle}>
@@ -316,6 +358,20 @@ export default class DemoGuides extends React.Component<{}, State> {
                     <div className={styles.demoGuidesCardPlaceholder} style={{ display: sample.image ? 'none' : 'flex' }}>
                       <span>📄</span>
                     </div>
+                    {this.getContentTypeInfo(sample.contentType) && (
+                      <div className={styles.demoGuidesContentTypeLabel}>
+                        <img 
+                          src={this.getContentTypeInfo(sample.contentType)!.icon} 
+                          alt={this.getContentTypeInfo(sample.contentType)!.label}
+                          className={styles.demoGuidesContentTypeIcon}
+                        />
+                        <div className={styles.demoGuidesContentTypeInfo}>
+                          <span className={styles.demoGuidesContentTypeTitle}>
+                            {this.getContentTypeInfo(sample.contentType)!.label}
+                          </span>
+                        </div>
+                      </div>
+                    )}
                   </div>
                   <div className={styles.demoGuidesCardContent}>
                     <h4 className={styles.demoGuidesCardTitle}>

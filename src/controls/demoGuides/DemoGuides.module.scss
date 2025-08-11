@@ -177,6 +177,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 
   img {
     transition: all 0.2s ease;
@@ -204,6 +205,68 @@
   opacity: 0.3;
   background-color: var(--vscode-editor-inactiveSelectionBackground, #f6f8fa);
   color: var(--vscode-descriptionForeground, #656d76);
+}
+
+.demoGuidesContentTypeLabel {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 3px 9px; /* slightly increased padding for better breathing room */
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  transition: all 0.2s ease;
+  max-width: none; /* allow full label */
+  min-height: 20px; /* reduced overall badge height */
+  line-height: 1;
+  white-space: nowrap;
+
+  &:hover {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.demoGuidesContentTypeIcon {
+  height: 14px; /* intrinsic width preserved */
+  max-height: 14px;
+  width: auto; /* no explicit width limit */
+  object-fit: contain;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Override generic card image img { width:100%; height:100%; } inside the badge */
+.demoGuidesContentTypeLabel img.demoGuidesContentTypeIcon {
+  width: auto !important;
+  height: 14px !important;
+}
+
+/* Fine-tune specific known logos using filename fragments in attribute selectors (works after bundling if name retained) */
+img.demoGuidesContentTypeIcon[src*="youtube"],
+img[src*="youtube"].demoGuidesContentTypeIcon {
+  height: 14px; /* unify with others */
+  max-height: 14px;
+}
+
+.demoGuidesContentTypeInfo {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.demoGuidesContentTypeTitle {
+  font-size: 10.5px; /* subtle reduction */
+  font-weight: 600;
+  color: #24292f;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .demoGuidesCardContent {
@@ -281,5 +344,16 @@
 
   .demoGuidesDropdownWrapper {
     min-width: auto;
+  }
+
+  .demoGuidesContentTypeLabel {
+  bottom: 6px;
+  right: 6px;
+  padding: 2px 6px;
+  min-height: 18px;
+  }
+
+  .demoGuidesContentTypeTitle {
+  font-size: 10px; /* keep readable on mobile */
   }
 }
