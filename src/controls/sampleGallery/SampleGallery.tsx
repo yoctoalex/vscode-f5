@@ -9,7 +9,6 @@ interface State {
   search: string;
   selectedModules: string[];
   selectedTags: string[];
-  filteredSamples?: any[];
 }
 
 export default class SampleGallery extends React.Component<{}, State> {

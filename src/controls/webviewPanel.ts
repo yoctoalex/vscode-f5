@@ -106,23 +106,9 @@ export class WebviewPanel {
       path.join(this.context.extensionPath, "out/src", "client.js")
     );
     const scriptUri = this.panel.webview.asWebviewUri(scriptPathOnDisk);
-    // const codiconsUri = this.panel.webview.asWebviewUri(
-    //   vscode.Uri.joinPath(globalVariables.context.extensionUri, "out", "resource", "codicon.css")
-    // );
     const stylesheetUri = this.panel.webview.asWebviewUri(
       vscode.Uri.joinPath(this.context.extensionUri, "out", "resource", "client.css")
     );
-    // const dompurifyUri = this.panel.webview.asWebviewUri(
-    //   vscode.Uri.joinPath(globalVariables.context.extensionUri, "out", "resource", "purify.min.js")
-    // );
-    // const mermaidUri = this.panel.webview.asWebviewUri(
-    //   vscode.Uri.joinPath(globalVariables.context.extensionUri, "out", "resource", "mermaid.min.js")
-    // );
-
-    // const allowChat = featureFlagManager.getBooleanValue(FeatureFlags.ChatParticipantUIEntries);
-    // const shouldHideTeamsAgentPreviewTag = featureFlagManager.getBooleanValue(
-    //   FeatureFlags.HideGitHubCopilotPreviewTag
-    // );
 
     // Use a nonce to to only allow specific scripts to be run
     const nonce = this.getNonce();
@@ -142,7 +128,6 @@ export class WebviewPanel {
               const panelType = '${panelType}';
             </script>
             <script nonce="${nonce}" type="module" src="${scriptUri.toString()}"></script>
-            </script>
           </body>
         </html>`;
   }
@@ -155,15 +140,6 @@ export class WebviewPanel {
     }
     return text;
   }
-
-  // private getWebviewPanelIconPath(panelType: PanelType) {
-  //   if (panelType === PanelType.AccountHelp) {
-  //     return vscode.Uri.file(
-  //       path.join(globalVariables.context.extensionPath, "media/itp/m365icon.svg")
-  //     );
-  //   }
-  //   return undefined;
-  // }
 
   public dispose() {
     const panelIndex = WebviewPanel.currentPanels.indexOf(this);

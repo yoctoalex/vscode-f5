@@ -60,14 +60,19 @@ export default class DemoGuides extends React.Component<{}, State> {
     }));
   };
 
-  createSample = (sample: any) => {
-    console.log('Creating sample:', sample.title);
-    
-    if (typeof vscode !== 'undefined') {
-      vscode.postMessage({
-        command: 'f5.createSample',
-        data: sample,
-      });
+  handleCardClick = (sample: any) => {
+    if (sample.url) {
+      console.log('Opening URL:', sample.url);
+      
+      if (typeof vscode !== 'undefined') {
+        vscode.postMessage({
+          command: 'openExternalLink',
+          data: sample.url,
+        });
+      } else {
+        // Fallback for development/testing
+        window.open(sample.url, '_blank');
+      }
     }
   };
 
@@ -237,7 +242,19 @@ export default class DemoGuides extends React.Component<{}, State> {
             <h3>⭐ Featured guides</h3>
             <div className={styles.demoGuidesGrid}>
               {featuredDemoGuides.map((sample, idx) => (
-                <div key={idx} className={styles.demoGuidesCard}>
+                <div 
+                  key={idx} 
+                  className={styles.demoGuidesCard}
+                  onClick={() => this.handleCardClick(sample)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      this.handleCardClick(sample);
+                    }
+                  }}
+                >
                   <div className={styles.demoGuidesCardImage}>
                     {(sample.image || sample.icon) && (
                       <img 
@@ -275,7 +292,19 @@ export default class DemoGuides extends React.Component<{}, State> {
           <div className={styles.demoGuidesSection}>
             <div className={styles.demoGuidesGrid}>
               {nonFeaturedDemoGuides.map((sample, idx) => (
-                <div key={idx} className={styles.demoGuidesCard}>
+                <div 
+                  key={idx} 
+                  className={styles.demoGuidesCard}
+                  onClick={() => this.handleCardClick(sample)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      this.handleCardClick(sample);
+                    }
+                  }}
+                >
                   <div className={styles.demoGuidesCardImage}>
                     {sample.image && (
                       <img 

@@ -226,18 +226,19 @@
   display: block;
 }
 
-// Special wider dropdown for tags only
-.sampleGalleryDropdownMenu:has(.sampleGalleryTagsGrid) {
-  width: 480px; // Wider width only for tags dropdown
-  right: 0; // Align to right edge to prevent going off-screen
-}
-
-// New container for the column layout (tags only)
+// Special wider dropdown for tags - using attribute selector for better compatibility
 .sampleGalleryTagsGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4px 8px;
   width: 100%;
+}
+
+// Parent dropdown menu containing tags grid gets wider
+.sampleGalleryDropdownMenu:has(.sampleGalleryTagsGrid),
+.sampleGalleryDropdownMenu.sampleGalleryTagsContainer {
+  width: 480px; // Wider width only for tags dropdown
+  right: 0; // Align to right edge to prevent going off-screen
 }
 
 .sampleGalleryCheckboxOption {
@@ -274,9 +275,10 @@
   }
 }
 
-// Media queries only affect tags dropdown
+// Media queries for responsive design
 @media (max-width: 1000px) {
-  .sampleGalleryDropdownMenu:has(.sampleGalleryTagsGrid) {
+  .sampleGalleryDropdownMenu:has(.sampleGalleryTagsGrid),
+  .sampleGalleryDropdownMenu.sampleGalleryTagsContainer {
     width: 360px;
     right: 0;
   }
@@ -287,7 +289,8 @@
 }
 
 @media (max-width: 600px) {
-  .sampleGalleryDropdownMenu:has(.sampleGalleryTagsGrid) {
+  .sampleGalleryDropdownMenu:has(.sampleGalleryTagsGrid),
+  .sampleGalleryDropdownMenu.sampleGalleryTagsContainer {
     width: 280px;
     left: auto;
     right: 0;
