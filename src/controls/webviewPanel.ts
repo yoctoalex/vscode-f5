@@ -71,7 +71,7 @@ export class WebviewPanel {
             void vscode.env.openExternal(vscode.Uri.parse(msg.data));
             break;
           case Commands.CreateGithubSample:
-            void vscode.commands.executeCommand('f5.getGitHubExample', vscode.Uri.parse(msg.data));
+            void vscode.commands.executeCommand('f5.getGitHubExample', msg.data);
             break;
           default:
             break;

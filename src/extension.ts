@@ -12,11 +12,14 @@ import {
 	Position,
 	languages,
 	ThemeIcon,
+	Uri,
 } from 'vscode';
 import jsYaml from 'js-yaml';
 import * as path from 'path';
 import * as fs from 'fs';
 import * as os from 'os';
+import * as crypto from 'crypto';
+import AdmZip from 'adm-zip';
 
 import { ExampleDecsProvider } from './treeViewsProviders/githubDecExamples';
 import { FastTemplatesTreeProvider } from './treeViewsProviders/fastTreeProvider';
@@ -677,16 +680,133 @@ export async function activate(context: ExtensionContext) {
 
 		ext.telemetry.capture({ command: 'f5.getGitHubExample' });
 
-		await ext.extHttp.makeRequest({ url: decUrl })
-			.then(resp => ext.panel.render(resp))
-			.catch(err => logger.error(err));
+		const url = decUrl.toString();
+		
+		// Check if the URL points to a ZIP file
+		const isZipFile = url.toLowerCase().endsWith('.zip');
+
+		if (isZipFile) {
+			// Handle ZIP file download and extraction
+			await handleZipSample(url);
+		} else {
+			// Handle regular file (single JSON/YAML file) - original behavior
+			await ext.extHttp.makeRequest({ url })
+				.then(resp => ext.panel.render(resp))
+				.catch(err => logger.error(err));
+		}
 	}));
 
+	/**
+	 * Download and extract ZIP file sample to a new workspace folder
+	 */
+	async function handleZipSample(zipUrl: string) {
+		const sampleTitle = crypto.randomUUID();
 
+		try {
+			await window.withProgress({
+				location: ProgressLocation.Notification,
+				title: 'Downloading ZIP Sample',
+				cancellable: true
+			}, async (progress, token) => {
+				
+				// Determine download directory - prefer workspace .vscode/samples, fallback to extension cache
+				let downloadDir: string;
+				const workspaceFolder = workspace.workspaceFolders?.[0];
+				
+				if (workspaceFolder) {
+					// Use .vscode/samples directory in workspace if available
+					downloadDir = path.join(workspaceFolder.uri.fsPath, '.vscode', 'samples');
+				} else {
+					// Fallback to extension cache directory if no workspace is open
+					downloadDir = path.join(ext.cacheDir, 'samples');
+					logger.info('No workspace open, using extension cache directory for ZIP download');
+				}
+				
+				// Ensure download directory exists
+				if (!fs.existsSync(downloadDir)) {
+					fs.mkdirSync(downloadDir, { recursive: true });
+				}
 
+				// Download using VS Code's built-in downloader
+				progress.report({ message: 'Downloading...' });
+				const downloadResp = await ext.extHttp.download(zipUrl, undefined, downloadDir);
+				const zipPath = downloadResp.data.file;
+				
+				if (token.isCancellationRequested) {
+					throw new Error('Download cancelled');
+				}
 
+				// Extract the ZIP file
+				progress.report({ message: 'Extracting...' });
+				const extractedDir = await extractZipFile(zipPath, downloadDir, sampleTitle);
+				
+				// Open the extracted folder in a new window
+				progress.report({ message: 'Opening workspace...' });
+				await commands.executeCommand('vscode.openFolder', Uri.file(extractedDir), { forceNewWindow: true });
 
+				// Clean up ZIP file
+				try {
+					fs.unlinkSync(zipPath);
+				} catch (error) {
+					logger.debug('Failed to clean up ZIP file:', error);
+				}
+			});
 
+		} catch (error) {
+			logger.error('ZIP sample handling failed:', error);
+			const message = error instanceof Error ? error.message : 'Unknown error';
+			
+			if (message.includes('cancelled')) {
+				window.showInformationMessage('Download cancelled');
+			} else {
+				window.showErrorMessage(`Failed to download ZIP sample: ${message}`);
+			}
+		}
+	}
+
+	/**
+	 * Extract ZIP file using adm-zip library
+	 */
+	async function extractZipFile(zipPath: string, downloadDir: string, sampleTitle: string): Promise<string> {
+		const extractDir = path.join(downloadDir, `${sampleTitle}_extracted`);
+		
+		try {
+			logger.info('Creating extraction directory:', extractDir);
+			
+			// Create extraction directory
+			if (!fs.existsSync(extractDir)) {
+				fs.mkdirSync(extractDir, { recursive: true });
+			}
+
+			// Use adm-zip to extract the file
+			logger.info('Initializing ZIP extraction');
+			const zip = new AdmZip(zipPath);
+			const zipEntries = zip.getEntries();
+			
+			logger.info(`Found ${zipEntries.length} entries in ZIP file`);
+			
+			// Extract all files
+			zip.extractAllTo(extractDir, true);
+			
+			logger.debug(`Successfully extracted ${zipEntries.length} files to ${extractDir}`);
+			
+			// If the ZIP contains a single root folder, return that folder instead
+			const extractedContents = fs.readdirSync(extractDir);
+			if (extractedContents.length === 1) {
+				const singleItem = path.join(extractDir, extractedContents[0]);
+				const stats = fs.statSync(singleItem);
+				if (stats.isDirectory()) {
+					logger.debug(`ZIP contains single root folder, using: ${singleItem}`);
+					return singleItem;
+				}
+			}
+			
+			return extractDir;
+		} catch (error) {
+			logger.error('Failed to extract ZIP using adm-zip:', error);
+			throw new Error(`ZIP extraction failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+		}
+	}
 
 
 	/**
