@@ -1,20 +1,5 @@
 export const SampleGalleryData = [
   {
-    "title": "Sample ZIP Project",
-    "tags": [
-      "Project",
-      "ZIP",
-      "Multi-file"
-    ],
-    "contentType": [
-      "Example"
-    ],
-    "isFeatured": true,
-    "description": "terraform example",
-    "url": "https://github.com/yoctoalex/samples-repo/tree/main/terraform-example",
-    "downloadUrl": "https://github.com/yoctoalex/samples-repo/releases/download/demo/terraform-example.zip"
-  },
-  {
     "title": "F5 BIG-IP AS3 Adapt Profile Configuration",
     "tags": [
       "AS3",
