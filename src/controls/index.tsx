@@ -2,19 +2,10 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { IntlProvider } from "react-intl";
 import { MemoryRouter, Route } from "react-router-dom";
-
 import { PanelType } from "./PanelType";
-
-//import { initializeIcons } from "@fluentui/react/lib/Icons";
-
-// import { PanelType } from "./PanelType";
 import SampleGallery from "./sampleGallery/SampleGallery";
 import DefaultPage from "./defaultPage/DefaultPage";
 import DemoGuides from "./demoGuides/DemoGuides";
-// import AccountHelp from "./webviewDocs/accountHelp";
-// import FunctionBasedNotificationBot from "./webviewDocs/functionBasedNotificationBot";
-// import ExpressServerNotificationBot from "./webviewDocs/expressServerNotificationBot";
-// import WorkflowBot from "./webviewDocs/workflowBot";
 
 const language = "en";
 
@@ -26,9 +17,6 @@ ReactDOM.render(
 );
 
 function App(props: any) {
-  // Initializing the office-ui-fabric-icons here to avoid multiple initializations in every component.
-  //initializeIcons();
-
   let initialIndex = 0;
   if (panelType === PanelType.SampleGallery) {
     initialIndex = 1;

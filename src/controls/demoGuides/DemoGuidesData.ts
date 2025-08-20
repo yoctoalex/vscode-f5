@@ -1,10 +1,10 @@
 import bigiqIcon from '../../../images/BIG-IQ-sticker_transparent.png';
 import f5Icon from '../../../images/f5.png';
-import bigipxopsFoundMod01 from '../../../images/bigip-xops-found-mod01.png';
-import bigipxopsFoundMod02 from '../../../images/bigip-xops-found-mod02.png';
-import bigipxopsFoundMod03 from '../../../images/bigip-xops-found-mod03.png';
-import bigipxopsFoundMod04 from '../../../images/bigip-xops-found-mod04.png';
-import f5codeshare from '../../../images/f5-codeshare.png';
+import bigipxopsFoundMod01 from '../../../images/quickstart/bigip-xops-found-mod01.png';
+import bigipxopsFoundMod02 from '../../../images/quickstart/bigip-xops-found-mod02.png';
+import bigipxopsFoundMod03 from '../../../images/quickstart/bigip-xops-found-mod03.png';
+import bigipxopsFoundMod04 from '../../../images/quickstart/bigip-xops-found-mod04.png';
+import f5codeshare from '../../../images/quickstart/f5-codeshare.png';
 
 export const DemoGuidesData = [
  {

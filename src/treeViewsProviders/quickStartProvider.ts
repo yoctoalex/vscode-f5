@@ -175,8 +175,6 @@ export function registerQuickStartProvider(context: vscode.ExtensionContext) {
     vscode.window.registerWebviewViewProvider(QuickStartProvider.viewType, provider)
   );
 
-  //vscode.window.registerTreeDataProvider('quickStart', provider);
-
   context.subscriptions.push(
     vscode.commands.registerCommand('f5.samples', () => {
       WebviewPanel.createOrShow(
@@ -194,26 +192,4 @@ export function registerQuickStartProvider(context: vscode.ExtensionContext) {
       );
     }),
   );
-
-  // context.subscriptions.push(
-  //   vscode.commands.registerCommand('f5.samples', () => {
-  //     if (currentPanel) {
-  //       currentPanel.reveal(vscode.ViewColumn.One); // просто фокусируем
-  //       return;
-  //     }
-
-  //     currentPanel = vscode.window.createWebviewPanel(
-  //       'samplesWebview',
-  //       'Samples',
-  //       vscode.ViewColumn.One,
-  //       { enableScripts: true }
-  //     );
-
-  //     currentPanel.webview.html = getWebviewContent();
-
-  //     currentPanel.onDidDispose(() => {
-  //       currentPanel = undefined;
-  //     }, null, context.subscriptions);
-  //   })
-  // );
 }
