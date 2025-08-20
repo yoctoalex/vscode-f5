@@ -235,10 +235,6 @@
 					"when": "f5.tcl"
 				},
 				{
-					"id": "decExamples",
-					"name": "Documentation/Examples"
-				},
-				{
 					"id": "cfgTree",
 					"name": "Config Explorer"
 				}

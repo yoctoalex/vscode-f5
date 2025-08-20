@@ -21,7 +21,6 @@ import * as os from 'os';
 import * as crypto from 'crypto';
 import AdmZip from 'adm-zip';
 
-import { ExampleDecsProvider } from './treeViewsProviders/githubDecExamples';
 import { FastTemplatesTreeProvider } from './treeViewsProviders/fastTreeProvider';
 import { registerQuickStartProvider } from './treeViewsProviders/quickStartProvider';
 
@@ -807,7 +806,6 @@ export async function activate(context: ExtensionContext) {
 		}
 	}
 
-
 	/**
 	 * #########################################################################
 	 * 
@@ -822,9 +820,6 @@ export async function activate(context: ExtensionContext) {
 	 */
 
 	registerQuickStartProvider(context);
-
-	// register example delarations tree
-	window.registerTreeDataProvider('decExamples', new ExampleDecsProvider());
 
 
 	context.subscriptions.push(commands.registerCommand('f5.jsonYmlConvert', async () => {
