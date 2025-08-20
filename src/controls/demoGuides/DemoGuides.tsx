@@ -2,10 +2,21 @@ import styles from "./DemoGuides.module.scss";
 import * as React from "react";
 import { DemoGuidesData } from "./DemoGuidesData";
 
+// TODO: Added ts-ignore due to missing type definitions.
+//       The type definitions for these images are not recognized by TypeScript in VS Code,
+//       which causes confusion and errors in the codebase. The definitions are described in the index.d.ts file.
+//       This is a temporary solution until the type definitions are properly defined.
+//       Doesn't affect the functionality, but improves developer experience.
+
+// @ts-ignore
 import youtubeIcon from "../../../images/icons/youtube.svg";
+// @ts-ignore
 import githubIcon from "../../../images/icons/github-mark.svg";
+// @ts-ignore
 import f5Icon from "../../../images/icons/f5.svg";
+// @ts-ignore
 import documentationIcon from "../../../images/icons/documentation.svg";
+// @ts-ignore
 import linkIcon from "../../../images/icons/link.svg";
 
 // Declare vscode global
