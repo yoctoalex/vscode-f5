@@ -243,23 +243,25 @@ export default class DemoGuides extends React.Component<{}, State> {
             >
               <span>
                 {selectedTags.length > 0 
-                  ? selectedTags.join(', ') 
+                  ? `${selectedTags.length} tag${selectedTags.length > 1 ? 's' : ''} selected`
                   : 'Tags'}
               </span>
               <span>▼</span>
             </div>
             <div className={`${styles.demoGuidesDropdownMenu}`}>
-              {availableTags.map(tag => (
-                <label key={tag} className={styles.demoGuidesCheckboxOption}>
-                  <input
-                    type="checkbox"
-                    value={tag}
-                    onChange={this.applyFilters}
-                    checked={selectedTags.includes(tag)}
-                  />
-                  {tag}
-                </label>
-              ))}
+              <div className={styles.demoGuidesTagsGrid}>
+                {availableTags.map(tag => (
+                  <label key={tag} className={styles.demoGuidesCheckboxOption}>
+                    <input
+                      type="checkbox"
+                      value={tag}
+                      onChange={this.applyFilters}
+                      checked={selectedTags.includes(tag)}
+                    />
+                    {tag}
+                  </label>
+                ))}
+              </div>
             </div>
           </div>
         </div>

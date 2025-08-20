@@ -35,6 +35,7 @@
 .demoGuidesDropdownWrapper {
   position: relative;
   display: inline-block;
+  max-width: 200px;
 }
 
 .demoGuidesDropdownHeader {
@@ -80,28 +81,51 @@
   color: var(--vscode-input-foreground);
   border: 1px solid #d0d7de;
   border-top: none;
-  padding: 4px 0;
+  padding: 8px;
   z-index: 10;
   width: 200px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
   box-sizing: border-box;
   border-radius: 0 0 2px 2px;
   margin: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
 
   &.demoGuidesOpen {
     display: block;
   }
 }
 
+// Special wider dropdown for tags - using attribute selector for better compatibility
+.demoGuidesTagsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px 8px;
+  width: 100%;
+}
+
+// Parent dropdown menu containing tags grid gets wider
+.demoGuidesDropdownMenu:has(.demoGuidesTagsGrid),
+.demoGuidesDropdownMenu.demoGuidesTagsContainer {
+  width: 480px; // Wider width only for tags dropdown
+  right: 0; // Align to right edge to prevent going off-screen
+}
+
 .demoGuidesCheckboxOption {
   display: flex;
   align-items: center;
   margin: 0;
-  padding: 6px 12px;
+  padding: 4px 6px;
   cursor: pointer;
   transition: background-color 0.15s ease;
   color: var(--vscode-input-foreground);
   white-space: nowrap;
+  border-radius: 2px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
   width: 100%;
   box-sizing: border-box;
 
@@ -110,9 +134,17 @@
   }
 
   input {
-    margin: 0 8px 0 0;
+    margin: 0 4px 0 0;
     cursor: pointer;
     flex-shrink: 0;
+    transform: scale(0.9);
+  }
+  
+  // Ensure text doesn't overflow
+  span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
 
@@ -333,6 +365,18 @@ img[src*="youtube"].demoGuidesContentTypeIcon {
   border-radius: 2px;
 }
 
+@media (max-width: 1000px) {
+  .demoGuidesDropdownMenu:has(.demoGuidesTagsGrid),
+  .demoGuidesDropdownMenu.demoGuidesTagsContainer {
+    width: 360px;
+    right: 0;
+  }
+  
+  .demoGuidesTagsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   .demoGuidesGrid {
     grid-template-columns: 1fr;
@@ -344,6 +388,22 @@ img[src*="youtube"].demoGuidesContentTypeIcon {
 
   .demoGuidesDropdownWrapper {
     min-width: auto;
+  }
+
+  .demoGuidesDropdownMenu:has(.demoGuidesTagsGrid),
+  .demoGuidesDropdownMenu.demoGuidesTagsContainer {
+    width: 280px;
+    left: auto;
+    right: 0;
+  }
+  
+  .demoGuidesTagsGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .demoGuidesCheckboxOption {
+    font-size: 13px;
+    padding: 6px 8px;
   }
 
   .demoGuidesContentTypeLabel {

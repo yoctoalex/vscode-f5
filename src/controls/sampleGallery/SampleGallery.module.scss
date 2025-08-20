@@ -165,6 +165,7 @@
 .sampleGalleryDropdownWrapper {
   position: relative;
   display: inline-block;
+  max-width: 200px;
 }
 
 .sampleGalleryDropdownHeader {
@@ -212,7 +213,7 @@
   border-top: none;
   padding: 8px;
   z-index: 10;
-  width: 200px; // Back to original width for type dropdown
+  width: 200px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
   box-sizing: border-box;
   border-radius: 0 0 2px 2px;
@@ -304,13 +305,6 @@
     font-size: 13px;
     padding: 6px 8px;
   }
-}
-
-// Keep dropdown wrapper at original size
-.sampleGalleryDropdownWrapper {
-  position: relative;
-  display: inline-block;
-  max-width: 200px;
 }
 
 .sampleGalleryNoResults {
