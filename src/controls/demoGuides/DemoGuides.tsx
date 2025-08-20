@@ -139,7 +139,7 @@ export default class DemoGuides extends React.Component<{}, State> {
     if (type === 'Youtube Video') {
       return { icon: youtubeIcon, label: 'Video' };
     }
-    if (type === 'GitHub Guide' || type === 'GitHub') {
+    if (type === 'GitHub Guide' || type === 'GitHub' || type === 'GitHub Repository') {
       return { icon: githubIcon, label: 'GitHub' };
     }
     if (type === 'Documentation') {
@@ -160,7 +160,7 @@ export default class DemoGuides extends React.Component<{}, State> {
       DemoGuidesData
         .filter(sample => sample.contentType && sample.contentType.length > 0)
         .flatMap(sample => sample.contentType)
-        .filter((type): type is string => type !== undefined)
+        .filter((type): type is string => type !== undefined && type !== '')
     )].sort();
 
     // Extract unique tag values from the guide data
@@ -289,10 +289,19 @@ export default class DemoGuides extends React.Component<{}, State> {
                         src={sample.image || sample.icon} 
                         alt={sample.title}
                         className={sample.icon ? styles.demoGuidesCardIcon : ''}
-                        onError={this.handleImageError}
+                        onError={(e) => {
+                          this.handleImageError(e);
+                        }}
+                        onLoad={(e) => {
+                          // Hide placeholder when image loads successfully
+                          const placeholder = e.currentTarget.nextElementSibling as HTMLElement;
+                          if (placeholder && placeholder.classList.contains(styles.demoGuidesCardPlaceholder)) {
+                            placeholder.style.display = 'none';
+                          }
+                        }}
                       />
                     )}
-                    <div className={styles.demoGuidesCardPlaceholder} style={{ display: (sample.image || sample.icon) ? 'none' : 'flex' }}>
+                    <div className={styles.demoGuidesCardPlaceholder} style={{ display: 'flex' }}>
                       <span>📄</span>
                     </div>
                     {this.getContentTypeInfo(sample.contentType) && (
@@ -348,14 +357,24 @@ export default class DemoGuides extends React.Component<{}, State> {
                   }}
                 >
                   <div className={styles.demoGuidesCardImage}>
-                    {sample.image && (
+                    {(sample.image || sample.icon) && (
                       <img 
-                        src={sample.image} 
+                        src={sample.image || sample.icon} 
                         alt={sample.title}
-                        onError={this.handleImageError}
+                        className={sample.icon ? styles.demoGuidesCardIcon : ''}
+                        onError={(e) => {
+                          this.handleImageError(e);
+                        }}
+                        onLoad={(e) => {
+                          // Hide placeholder when image loads successfully
+                          const placeholder = e.currentTarget.nextElementSibling as HTMLElement;
+                          if (placeholder && placeholder.classList.contains(styles.demoGuidesCardPlaceholder)) {
+                            placeholder.style.display = 'none';
+                          }
+                        }}
                       />
                     )}
-                    <div className={styles.demoGuidesCardPlaceholder} style={{ display: sample.image ? 'none' : 'flex' }}>
+                    <div className={styles.demoGuidesCardPlaceholder} style={{ display: 'flex' }}>
                       <span>📄</span>
                     </div>
                     {this.getContentTypeInfo(sample.contentType) && (

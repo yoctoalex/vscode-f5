@@ -87,7 +87,7 @@ export const DemoGuidesData = [
   {
     title: 'F5 Codeshare',
     tags: ['DevCentral', 'BIG-IP'],
-    contentType: [''],
+    contentType: ['Documentation'],
     image: f5codeshare,
     description: 'F5 DevCentral CodeShare is a community-driven repository where users can share code, scripts, and configurations, mostly for BIG-IP. ',
     url: 'https://community.f5.com/category/crowdsrc/kb/codeshare'
