@@ -135,7 +135,7 @@ button:focus {
       <body>
       <h2>THE F5 EXTENSION</h2>
 
-      <p>Get started with BIG-IP automation using guides and video tutorials</p>
+      <p>Get started with BIG-IP automation using guides, video tutorials & documentation.</p>
 
       <div class="button-container">
       <button onclick="runCommand('f5.guides')">Browse Guides and Tutorials</button>

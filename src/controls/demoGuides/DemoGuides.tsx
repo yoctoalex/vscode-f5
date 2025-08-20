@@ -193,7 +193,7 @@ export default class DemoGuides extends React.Component<{}, State> {
 
     return (
       <div className={styles.demoGuidesContainer}>
-        <h1>🗂️ Demo Guides</h1>
+        <h1>🗂️ Guides and Tutorials</h1>
         <p>
           Step-by-step guides and hands-on tutorials explain how to get started and build advanced BIG-IP automation workflows with The F5 Extension. Video walkthroughs and demos are also available on YouTube for visual learning.
         </p>
